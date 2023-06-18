@@ -1,0 +1,58 @@
+@media screen and (max-width:600px) {
+  /* HEADER HAT */
+  .header-menu {
+    margin-top: 10.933vw;
+    margin-bottom: 9.867vw;
+  }
+  .header-menu-left {
+    display: none;
+  }
+  .header-menu-logo {
+    height: 8vw;
+  }
+  /* .header-hamburger-menu {
+    display: block;
+  } */
+  
+  /* HEADER CONTENT */
+  .header-image-container {
+    width: 94.133vw;
+    height: 170.933vw;
+  }
+  .header-image {
+    display: none;
+  }
+  .header-image-mobile {
+    display: flex;
+    width: 100vw;
+  }
+  .header-info {
+    flex-direction: column;
+    gap: 4.800vw;
+  }
+  .header-info-tittle {
+    width: 94.133vw;
+    font-size: 6.667vw;
+    line-height: 8vw;
+    margin-top: 5.333vw;
+  }
+  .header-info-subtittle {
+    width: 94.133vw;
+    font-size: 4.800vw;
+    line-height: 5.760vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DO NOT TOUCH THE LAST APOSTROPHE */
+}
