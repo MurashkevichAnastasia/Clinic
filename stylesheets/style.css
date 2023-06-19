@@ -122,13 +122,6 @@ h6 {
 }
 
 
-/* @media screen and (min-width: 700px) and (max-width: 1280px){
-  a {
-    font-size: 1rem;
-  }
-} */
-
-
 /* HEADER */
 .header-menu {
   /* align-items: center;
@@ -149,110 +142,29 @@ h6 {
   gap: 3vw;
 }
 .header-hamburger-menu {
-  position: fixed;
-  /* width: 100%;
-  height: 100%; */
-  /* background: gray; */
-  /* top: 0;
-  left: 0; */
-  left: 1.067vw;
-  top: 5.5vw;
-  width: 97.600vw;
-  height: 177.867vw;
-  padding: 4vw;
-  display: flex;
-  flex-direction: column;
-  gap: 8vw;
-  transform: translateX(100%);
-  transition: 0.7s;
-
-
- 
-  background: #FFFFFF;
-  border-radius: 1.136vw;
-  color: black;
-}
-.header-hamburger-menu.active {
-  transform: translateX(0);
-}
-.logo-cansel {
-  display: flex;
-
+  display: none;
 }
 .hamburger-logo {
-  width: 37.600vw;
-  height: 12.267vw;
-  left: 4vw;
-  top: 4vw; 
-  background: #F2F2F2;
-  border-radius: 1.333vw;
+  display: none;
 }
 .hamburger-cansel {
-  width: 12.267vw;
-  height: 12.267vw;
-  margin-left: 39.733vw;
-  right: 4vw;
-  top: 4vw;  
+  display: none;
 }
-.hamburger-main, .hamburger-about, .hamburger-interior, .hamburger-store, .hamburger-blog, .hamburger-contacts{
-  color: #000000;
-  font-size: 6.667vw;
+.hamburger-text {
+  display: none;
 }
 .header-hamburger-menu-btn {
-  width: 10.667vw;
-  height: 8vw;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  overflow: hidden;
-  z-index: 2;
-  /* top: 4vw; */
-  right: 4vw;
+  display: none;
 }
 .header-hamburger-menu-btn span {
-  width: 10.667vw;
-  height: 0.3vw;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  display: block;
-  background: white;
-  transform: translate(-50%, -50%);
-  transition: 0.35s;
+  display: none;
 }
-.header-hamburger-menu-btn span:nth-of-type(2) {
-  top: calc(50% - 4vw);
-}
-.header-hamburger-menu-btn span:nth-of-type(3) {
-  top: calc(50% + 4vw);
-}
-.header-hamburger-menu-btn.active span:first-of-type {
-  opacity: 0;
-}
-.header-hamburger-menu-btn.active span:nth-of-type(2) {
-  opacity: 0;
-}
-.header-hamburger-menu-btn.active span:nth-of-type(3) {
-  opacity: 0;
-}
-/* media */
+
 .hamburger-media {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 2.667vw;
-  width: 29.067vw;
-  height: 33.600vw;
-  margin-top: 35.733vw;
+  display: none;
 }
 .hamburger-behance, .hamburger-git, .hamburger-telegram, .hamburger-twitter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 5.333vw;
+  display: none;
 }
 
 
@@ -314,7 +226,7 @@ h6 {
   align-items: flex-start;
   padding: 0px;
 }
-.ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker {
+.ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker, .crazy-linker {
   display: flex;
   align-items: flex-start;
   padding: 0px;
@@ -323,7 +235,7 @@ h6 {
   height: 6.12vw;
   margin-bottom: 1.515vw;
 }
-.ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button {
+.ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button, .crazy-linker-button {
   display: flex;
   /* flex-direction: row; */
   align-items: flex-start;
@@ -334,7 +246,7 @@ h6 {
   align-items: center;
   padding: 0.833vw;
 }
-.ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go {
+.ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go, .crazy-linker-go {
   display: flex;
   flex-direction: row;
   background: #DB062D;
@@ -355,6 +267,9 @@ h6 {
 }
 .ad-posters-container-image, .poster-one-image-container {
   transition: transform .8s;
+}
+.posters-mobile {
+  display: none;
 }
 .ad-posters-container-image:hover {
   transform: scale(1.1);
@@ -420,16 +335,16 @@ h6 {
 }
 /* HOVERING ON SERVICES */
 .consult-button:hover {
-  background: #0E49ED;
+  background: #002ba0;
 }
 .therapie-button:hover {
-  background: #F3B005;
+  background: #e99700;
 }
 .preventive-button:hover {
-  background: #CB0529;
+  background: #93011c;
 }
 .neiro-button:hover {
-  background: #399ADC;
+  background: #0076c5;
 }
 /* BLOG */
 .blog-container {
@@ -528,10 +443,15 @@ h6 {
   width: 21.6vw;
   background: #000000;
   border-radius: 0.758vw;
+  transition: 0.6s;
+}
+.blog-one-button:hover, .blog-two-button:hover {
+  background: #CB0529;
 }
 .blog-one-text, .blog-two-text {
   color: #000000;
 }
+
 /* POSTERS-STORE */
 .posters-store-container {
   width: 96.212vw;
@@ -587,6 +507,9 @@ h6 {
   width: 40vw;
   transition: transform .8s;
 }
+.poster-one-mobile, .poster-two-mobile-2x {
+  display: none;
+}
 .poster-one-image:hover {
   transform: scale(1.1);
 }
@@ -616,6 +539,9 @@ h6 {
 .ad-image {
   width: 100vw;
   transition: transform .8s;
+}
+.native-mobile-2x {
+  display: none;
 }
 .ad-image:hover {
   transform: scale(1.1);
@@ -702,12 +628,13 @@ h6 {
   padding-right: 0.7vw;
   padding-left: 0.7vw;
   padding-top: 0.4vw;
+  transition: 0.6s;
 }
 .contacts-get-button:hover {
   color: white;
 }
 .contacts-get-button:hover {
-  background: #323232;
+  background: #DB062D;
 }
 .contacts-logo {
   position: absolute;

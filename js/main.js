@@ -7,8 +7,13 @@ headerHamburgerMenuBtn.addEventListener("click", function(){
   headerHamburgerMenu.classList.toggle("active");
 })
 
+//change color on click
+const hamburgerMain = document.getElementById("hamburgerMain");
+hamburgerMain.addEventListener("click", function(){
+  hamburgerMain.style.color="red";
+})
 
-
+// BLOG. BUTTON ON CLICK
 
 
 
@@ -19,6 +24,13 @@ function hoverOnBehance() {
 function hoverOffBehance() {
   document.getElementById("behance-subtittle-arrow").classList.remove("active");
 }
+
+
+let clickOnBehance = document.querySelector(".behance");
+clickOnBehance.addEventListener("click", function(){
+  clickOnBehance.classList.toggle("active");
+})
+
 // MEDIA. HOVER ON BEHANCE ARROW
 function hoverOnArrow() {
   document.getElementById("black-arrow").classList.add("active");
