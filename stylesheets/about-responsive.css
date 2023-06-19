@@ -1,0 +1,205 @@
+@media screen and (max-width:600px) {
+  h1 {
+    font-family: 'CraftworkGrotesk-Medium';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 25px; */
+    font-size: 6.667vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    flex-grow: 0;
+    line-height: 8vw;
+  }
+  h3, .placeholder, .contacts-get-button  {
+    font-family: 'CraftworkGrotesk-Medium';
+    font-weight: 500;
+    /* font-size: 20px; */
+    font-size: 5.333vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 6.400vw;
+  }
+  h4, a {
+    height: auto;
+    /* font-family: "Gilroy Medium"; */
+    font-family: "Gilroy-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+    font-size: 4.800vw;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 5.600vw;
+    transition: .5s;
+  }
+  /* MODERN PRACTICES */
+  .modern {
+    width: 94.133vw;
+  }
+  .modern-practice {
+    width: 94.133vw;
+  }
+  .modern-group {
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 3vw;
+    width: 94.133vw;
+  }
+  .modern-group-one {
+    width: 94.133vw;
+    height: 164vw;
+    gap: 4.8vw;
+  }
+  .group-one-image-container {
+    width: 94.133vw;
+    height: 131.733vw;
+    border-radius: 4vw;
+  }
+  .group-one-image {
+    display: none;
+  }
+  .group-one-image-mobile {
+    display: block;
+    width: 96vw;
+  }
+  .group-one-text, .group-two-text {
+    width: 94.133vw;
+  }
+  .modern-group-two {
+    width: 94.133vw;
+    height: 211.200vw;
+    gap: 4.8vw;
+  }
+  .group-two-image-container {
+    width: 94.133vw;
+    height: 130.400vw;
+    border-radius: 4vw;
+  }
+  .group-two-image {
+    display: none;
+  }
+  .group-two-image-mobile {
+    display: block;
+    width: 97vw;
+  }
+  /* CRAZY IS */
+  .crazy-container {
+    width: 94.133vw;
+    height: 171.200vw;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+  }
+  .crazy-linker-button {
+    padding-bottom: 3vw;
+  }
+  .crazy-image-container {
+    height: 156.800vw;
+    border-radius: 4vw;
+    width: 94.133vw;
+  }
+  .crazy-image {
+    display: none;
+  }
+  .crazy-image-mobile {
+    display: block;
+    width: 97vw;
+  }
+  .crazy-tag-one, .crazy-tag-two {
+    margin-top: 3vw;
+    margin-left: 3vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  } 
+  .crazy-tag-two {
+    left: 50vw;
+  }
+  /* WHAT NEED TO KNOW */
+  .what-container {
+    flex-direction: column;
+    width: 94.133vw;
+    height: 193.667vw;
+  }
+  .what-left {
+    width: 94.133vw;
+    height: 16vw;
+  }
+  .what-right {
+    width: 94.133vw;
+    height: 160vw;
+    margin-left: 0;
+  }
+  .main, .less-main, .not-main {
+    gap: 4.8vw;
+    margin-top: 4.8vw;
+  }
+  .main-line, .less-main-line, .not-main-line {
+    width: 94.133vw;
+  }
+  .appointment-button {
+    width: 63vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-top: 3vw;
+  }
+  .make-an-appoinment {
+    width: 58vw;
+  }
+  /* OFFER */
+  .offer-container {
+    width: 94.133vw;
+    height: 170.400vw;
+    height: auto;
+    margin-bottom: 3vw;
+  }
+  .offer-content {
+    width: 94.133vw;
+    height: 127vw;
+    flex-direction: column;
+    border-radius: 4vw;
+  }
+  .offer-data {
+    margin-left: 3vw;
+    margin-top: 3vw;
+  }
+  .offer-image-container {
+    width: 87.200vw;
+    height: 67.200vw;
+    margin: 0 auto;
+    margin-top: 8vw;
+    margin-bottom: 4.8vw;
+  }
+  .offer-image {
+    display: none;
+  }
+  .offer-image-mobile {
+    display: block;
+    width: 97vw;
+  }
+  .cont {
+    width: 87.200vw;
+    margin-left: 3vw;
+  }
+  .offer-go {
+    bottom: 4.5vw;
+    right: 3.5vw;
+    width: 13.067vw;
+    height: 13.067vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DO NOT TOUCH */
+}

@@ -226,7 +226,7 @@ h6 {
   align-items: flex-start;
   padding: 0px;
 }
-.ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker, .crazy-linker {
+.ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker, .crazy-linker, .offer-linker {
   display: flex;
   align-items: flex-start;
   padding: 0px;
@@ -235,7 +235,7 @@ h6 {
   height: 6.12vw;
   margin-bottom: 1.515vw;
 }
-.ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button, .crazy-linker-button {
+.ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button, .crazy-linker-button, .offer-linker-button {
   display: flex;
   /* flex-direction: row; */
   align-items: flex-start;
@@ -246,7 +246,7 @@ h6 {
   align-items: center;
   padding: 0.833vw;
 }
-.ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go, .crazy-linker-go {
+.ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go, .crazy-linker-go, .offer-linker-go {
   display: flex;
   flex-direction: row;
   background: #DB062D;
@@ -678,7 +678,7 @@ h6 {
   width: 15.227vw;
   margin-right: 0.909vw;
 }
-.pre-arrow, .pre-arrow-git, .pre-arrow-telegram, .pre-arrow-twitter {
+.pre-arrow, .pre-arrow-git, .pre-arrow-telegram, .pre-arrow-twitter, .pre-arrow-offer {
   width: 3.712vw;
   height: 3.712vw;
   border-radius: 500px;
@@ -691,7 +691,7 @@ h6 {
   /* padding-top: 0.9vw; */
   overflow: hidden;
 }
-.behance-arrow, .github-arrow, .telegram-arrow, .twitter-arrow {
+.behance-arrow, .github-arrow, .telegram-arrow, .twitter-arrow, .offer-arrow {
   width: 3.712vw;
   height: 3.712vw;
   border-radius: 500px;
@@ -709,17 +709,17 @@ h6 {
   --transition-delay-out: 100ms;
   --transition-delay-in: 0ms;
 }
-.behance-arrow:hover, .github-arrow:hover {
+.behance-arrow:hover, .github-arrow:hover, .offer-arrow:hover {
   border-width: 1.894vw;
   mix-blend-mode:darken;
 }
-.media-arrow, .media-arrow-git, .media-arrow-telegram, .media-arrow-twitter {
+.media-arrow, .media-arrow-git, .media-arrow-telegram, .media-arrow-twitter, .media-arrow-offer {
   position: absolute;
   margin-top: 0.9vw;
   width: 1.742vw;
   height: 1.667vw;
 }
-.black-arrow, .black-arrow-git, .black-arrow-telegram, .black-arrow-twitter {
+.black-arrow, .black-arrow-git, .black-arrow-telegram, .black-arrow-twitter, .black-arrow-offer {
   position: absolute;
   margin-top: 0.9vw;
   opacity: 0;

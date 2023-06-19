@@ -205,12 +205,12 @@
     width: 94.133vw;
     margin-bottom: 3vw;
   }
-  .ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker {
+  .ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker, .crazy-linker, .offer-linker {
     height: 11.733vw;
     gap: 2.667vw;
     margin-bottom: 2.667vw;
   }
-  .ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button {
+  .ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button, .crazy-linker-button, .offer-linker-button {
     padding: 2.667vw;
     border-radius: 1.333vw;
     padding-bottom: 4.3vw;
@@ -219,7 +219,7 @@
   .ad-posters-linker-button-text, .services-linker-button-text {
     font-size: 8vw;
   }
-  .ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go  {
+  .ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go, .crazy-linker-go, .offer-linker-go  {
     width: 11.733vw;
     height: 11.733vw;
   }
@@ -411,7 +411,6 @@
     height: 224.533vw;
     flex-direction: column;
     border-radius: 4vw;
-    padding-left: 1vw;
     margin-bottom: 3vw;
   }
   .contacts-info {

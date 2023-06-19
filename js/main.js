@@ -87,4 +87,12 @@ function hoverOffArrowTwitter() {
   document.getElementById("black-arrow-twitter").classList.remove("active");
 }
 
+// MEDIA. HOVER ON offer
+function hoverOnOffer() {
+  document.getElementById("black-arrow-offer").classList.add("active");
+}
+function hoverOffOffer() {
+  document.getElementById("black-arrow-offer").classList.remove("active");
+}
+
 
