@@ -1,70 +1,74 @@
 @media screen and (max-width:600px) {
   /* FIRST IMAGE CONTAINER */
-  .first-image-manual-container, .manual-container {
+  .first-image-manual-container, .manual-container, .first-image-toys-container {
     width: 94.133vw;
     height: auto;
     border-radius: 4vw;
     margin-bottom: 2.667vw;
   }
-  .image-manual-container {
+  .image-manual-container, .image-toys-container {
     width: 94.133vw;
     height: 119.467vw;
     border-radius: 4vw;
     margin-bottom: 5.333vw;
   }
-  .first-image-manual, .manual-content-one-image, .manual-content-two-image {
+  .first-image-manual, .manual-content-one-image, .manual-content-two-image, .first-image-toys {
     display: none;
   }
-  .first-image-manual-container {
+  /* .first-image-manual-container {
     width: 94.133vw;
     height: 119.467vw;
     border-radius: 4vw;
-  }
-  .first-image-manual-mobile, .manual-content-one-image-mobile, .manual-content-two-image-mobile {
+  } */
+  .first-image-manual-mobile, .manual-content-one-image-mobile, .manual-content-two-image-mobile, .first-image-toys-mobile {
     display: block;
     width: 95vw;
   }
   /* MANUAL CONTAINER */
-  .manual-tags {
+  .manual-tags, .toys-tags {
     width: 94.133vw;
     flex-wrap: wrap;
     height: auto;
     gap: 2.667vw;
     margin-bottom: 5.333vw;
   }
-  .manual-tag-one, .manual-tag-two, .manual-tag-three {
+  .manual-tag-one, .manual-tag-two, .manual-tag-three, .toys-tag-one, .toys-tag-two, .toys-tag-three {
     padding: 2.758vw 7.833vw;
   }
-  .manual-subtittle {
+  .manual-subtittle, .toys-subtittle {
     width: 94.133vw;
   }
-  .manual-content {
+  .manual-content, .toys-content {
     width: 94.133vw;
     height: auto;
     flex-direction: column;
     border-radius: 4vw;
   }
-  .manual-content-one {
+  .manual-content-one, .toys-content-one {
     width: 94.133vw;
     height: auto;
     border-radius: 4vw;
     gap: 4vw;
   }
-  .manual-content-one-image-container {
+  .manual-content-one-image-container, .toys-content-one-image-container {
     width: 94.133vw;
     height: 107.200vw;
     border-radius: 4vw;
   }
-  .manual-topic-one, .manual-topic-two {
+  .manual-topic-one, .manual-topic-two, .toys-topic-one, .toys-topic-two {
     width: 94.133vw;
   }
-  .manual-topic-two {
+  .manual-topic-two, .toys-topic-two {
     margin-bottom: 2.667vw;
   }
-  .manual-content-two, .manual-content-two-image-container {
+  .manual-content-two, .manual-content-two-image-container, .toys-content-two, .toys-content-two-image-container {
     width: 94.133vw;
     height: 86.133vw;
     border-radius: 4vw;
+  }
+  /* TOYS */
+  .toys-content-two-image {
+    width: 95vw;
   }
 
 
