@@ -1,0 +1,82 @@
+@media screen and (max-width:600px) {
+  /* MANUAL AND TOYS */
+  .manual-toys-container, .theatre-medi-care-container, .space-performance-container {
+    width: 94.133vw;
+    height: auto;
+    border-radius: 4vw;
+  }
+  .manual-toys-linkers, .theatre-medi-care-linkers, .space-performance-linkers {
+    flex-direction: column;
+    gap: 2.667vw;
+  }
+  .manual-toys-content, .space-performance-content, .theatre-medi-care-content {
+    width: 94.133vw;
+    flex-direction: column;
+    gap: 2.667vw;
+    height: auto;
+    border-radius: 4vw;
+  }
+  .manual, .toys, .theatre, .medi, .care, .space, .performance {
+    width: 94.133vw;
+    /* height: 146.133vw; */
+    height: auto;
+    border-radius: 4vw;
+    gap: 4.8vw;
+  }
+  .manual-image-container, .toys-image-container, .theatre-image-container, .medi-image-container, .care-image-container, .space-image-container, .performance-image-container {
+    width: 94.133vw;
+    height: 109.333vw;
+    border-radius: 4vw;
+    background: wheat;
+  }
+  .manual-text-button, .toys-text-button, .theatre-no-text-button .medi-no-text-button, .space-text-button, .performance-text-button {
+    width: 94.133vw;
+    height: auto;
+    flex-direction: column;
+    gap: 5.333vw;
+    /* height: 32vw; */
+  } 
+  .manual-text, .toys-text, .space-text, .performance-text {
+    width: 94.133vw;
+    height: auto;
+  }
+  .manual-button, .toys-button, .theatre-button, .medi-button, .care-button, .space-button, .performance-button {
+    width: 59.467vw;
+    padding: 5vw 1vw;
+    border-radius: 2.667vw;
+    align-self: flex-end;
+  }
+  .manual-image, .toys-image, .theatre-image, .medi-image, .care-image, .space-image, .performance-image {
+    display: none;
+  } 
+  .manual-mobile, .toys-mobile, .theare-mobile, .medi-mobile, .care-mobile, .space-mobile, .performance-mobile  {
+    display: block;
+    width: 97vw;
+  }
+  .manual-hover, .toys-hover, .theatre-hover, .medi-hover, .care-hover, .space-hover, .performance-hover {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* DO NOT TOUCH */
+}
