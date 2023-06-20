@@ -1,0 +1,125 @@
+
+/* MANUAL AND TOYS */
+.manual-toys-container, .theatre-media-care-container {
+  width: 96.212vw;
+  margin: 0 auto;
+  margin-bottom: 7.955vw;
+}
+.manual-toys-linkers, .theatre-media-care-linkers {
+  display: flex;
+  flex-direction: row;
+  gap: 1.515vw;
+}
+.manual-linker-button {
+  background: #52B5F9;
+}
+.manual-linker-go {
+  background: #FFBB0E;
+}
+.toys-linker-button {
+  background: #6610F5;
+}
+.manual-toys-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.985vw;
+  width: 96.212vw;
+  height: 52.879vw;
+}
+/* manual */
+.manual, .toys {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 47.389vw;
+  height: 52.879vw;
+}
+.manual-image-container, .toys-image-container {
+  width: 47.389vw;
+  height: 47.576vw;
+  border-radius: 1.136vw;
+  overflow: hidden;
+}
+.manual-image, .toys-image {
+  width: 50vw;
+  transition: transform 0.8s;
+}
+.manual-image:hover, .toys-image:hover {
+  transform: scale(1.1);
+}
+.manual-text-button, .toys-text-button {
+  display: flex;
+  margin-top: 1.515vw;
+}
+.manual-text, .toys-text, .theatre-text {
+  width: 20.455vw;
+  height: 3.788vw;
+  margin-right: 9vw;
+}
+.manual-button, .toys-button, .theatre-button, .media-button, .care-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5vw 0.5vw;
+  gap: 0.758vw;
+  width: 16.916vw;
+  height: 3.788vw;
+  background: #FFFFFF;
+  border-radius: 0.758vw;
+  transition: 0.4s;
+}
+.manual-button:hover, .toys-button:hover, .theatre-button:hover, .media-button:hover, .care-button:hover {
+  background: #DB062D;
+}
+.manual-button-text, .toys-button-text, .theatre-button-text, .theatre-button-text, .media-button-text, .care-button-text {
+  color: black;
+  transition: 0.4s;
+}
+.manual-button-text:hover, .toys-button-text:hover, .theatre-button-text:hover, .media-button-text:hover, .care-button-text:hover {
+  color: #FFFFFF;
+}
+/* THEATRE MEDIA CARE */
+.theatre-linker-go {
+  background: #52B5F9;
+}
+.media-linker-button {
+  background: #DB062D;
+}
+.media-linker-go {
+  background: #6610F5;
+}
+.care-linker-button {
+  background: #FFBB0E;
+}
+.theatre-media-care {
+  display: flex;
+  align-items: flex-start;
+  width: 47.389vw;
+  height: 52.879vw;
+  gap: 1.515vw;
+}
+/* theatre */
+.theatre, .media, .care {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 31.061vw;
+  height: 41.742vw;
+  gap: 0.985vw;
+}
+.theatre-image-container, .media-image-container, .care-image-container {
+  width: 31.061vw;
+  height: 36.439vw;
+  border-radius: 1.136vw;
+  overflow: hidden;
+  background: #52B5F9;
+}
+.theatre-image, .media-image, .care-image {
+  width: 33vw;
+  transition: transform 0.8s;
+}
+.theatre-image:hover, .media-image:hover, .care-image:hover {
+  transform: scale(1.1); 
+}

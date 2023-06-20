@@ -1,0 +1,144 @@
+.inter-one-image-container, .open-space-image-container {
+  display: flex;
+  align-items: flex-start;
+  width: 96.212vw;
+  height: 40.985vw;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.515vw;
+  border-radius: 1.136vw;
+}
+.iter-one-image {
+  width: 96.212vw;
+  height: 40.985vw;
+  transition: transform .8s;
+}
+.iter-one-image:hover {
+  transform: scale(1.1);
+} 
+.inter-one-image-mobile {
+  display: none;
+}
+.inter-tag-one, .relax-tag-one, .relax-tag-two, .lab-tag-one, .lab-tag-two, .lab-tag-two-one, .lab-tag-two-two, .open-space-tag {
+  background: #52B5F9;
+  position: absolute;
+  padding: 0.758vw 0.833vw;
+  border-radius: 500px;
+  top: 1vw;
+  left: 1vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+/* RELAX ZONE */
+.relax-container, .lab-conatiner, .open-space-container {
+  width: 96.212vw;
+  margin: 0 auto;
+  margin-bottom: 1.515vw;
+}
+.relax-linker-button {
+  background: #6610F5;
+}
+.relax-one-two-image  {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* gap: 5.333vw;  */
+  width: 96.212vw;
+  height: 40.985vw;
+  justify-content: space-between;
+}
+.relax-one-image-container, .relax-two-image-container {
+  display: flex;
+  align-items: flex-start;
+  width: 47.348vw;
+  height: 40.985vw;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1.136vw;
+}
+.relax-one-image, .relax-two-image {
+  width: 51vw;
+  transition: transform .8s;
+}
+.relax-one-image-mobile {
+  display: none;
+}
+.relax-two-image-mobile {
+  display: none;
+}
+.relax-one-image:hover, .relax-two-image:hover {
+  transform: scale(1.1);
+}
+.relax-tag-one {
+  background-color: #FFBB0E;
+}
+/* LABIRINTH ZONE CONTAINER */
+.lab-linker-button {
+  background: #52B5F9;
+}
+.lab-linker-go {
+  background: #FFBB0E;
+}
+.lab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.515vw; 
+  width: 96.212vw;
+  height: 59.242vw;
+}
+.lab-content-one, .lab-content-two {
+  width: 96.212vw;
+  height: 28.864vw;
+  display: flex;
+  margin: 0 auto;
+  gap: 1.515vw;
+}
+.lab-content-one-image-container, .lab-content-two-image-container {
+  display: flex;
+  overflow: hidden;
+  border-radius: 1.136vw;
+  height: 28.864vw;
+  position: relative;
+}
+.lab-content-one-image, .lab-content-two-image, .lab-content-two-one-image, .lab-content-two-two-image {
+  width: 50vw;
+  transition: transform .8s;
+}
+.lab-content-one-image-mobile, .lab-content-two-image-mobile, .ab-content-two-one-image-mobile, .lab-content-two-two-image-mobile, .open-space-image-mobile, .lab-content-two-one-image-mobile {
+  display: none;
+}
+.lab-content-two-one-image {
+  width: 29.167vw;
+}
+.lab-content-two-two-image {
+  width: 65.152vw;
+}
+.lab-content-one-image:hover, .lab-content-two-image:hover, .lab-content-two-one-image:hover, .lab-content-two-two-image:hover {
+  transform: scale(1.1);
+}
+.lab-tag-two {
+  background: #104FFF;
+}
+.lab-tag-two-one {
+  background: #DB062D;
+}
+.lab-tag-two-two {
+  background: #FFBB0E;
+}
+/* OPEN SPACE CONTAINER */
+.open-space-linker-button {
+  background: #104FFF;
+}
+.open-space-linker-go {
+  background: #6610F5;
+}
+.open-space-image {
+  width: 100vw;
+  transition: transform .8s;
+}
+.open-space-image:hover {
+  transform: scale(1.1);
+}

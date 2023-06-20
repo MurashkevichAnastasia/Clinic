@@ -1,0 +1,105 @@
+@media screen and (max-width:600px) {
+  /* .header-hamburger-menu {
+    z-index: 3;
+  }
+  .header-hamburger-menu-btn {
+    z-index: 3;
+  }
+  .header-hamburger-menu-btn.active {
+    z-index: 3;
+  } */
+  .inter-one-image-container {
+    margin: 0 auto;
+    width: 94.133vw;
+    height: 106.667vw;
+    border-radius: 4vw;
+    margin-bottom: 3vw;  
+  }
+  .iter-one-image {
+    display: none;
+  }
+  .inter-one-image-mobile {
+    display: block;
+    width: 100vw;
+  }
+  .inter-tag-one, .relax-tag-one, .relax-tag-two, .lab-tag-one, .lab-tag-two, .lab-tag-two-one, .lab-tag-two-two, .open-space-tag {
+    top: 3vw;
+    left: 3vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 1.5vw;
+  }
+  /* RELAX ZONE CONTAINER */
+  .relax-container {
+    height: 235.733vw;
+    margin-bottom: 3vw;
+    border-radius: 4vw;
+    width: 94.133vw;
+  }
+  .relax-one-two-image {
+    flex-direction: column;
+    height: 221.333vw;
+    width: 94.133vw;
+  }
+  .relax-one-image-container, .relax-two-image-container {
+    height: 109.333vw;
+    width: 94.133vw;
+    border-radius: 4vw;
+  }
+  .relax-one-image-mobile, .relax-two-image-mobile {
+    width: 100vw;
+  }
+  .relax-two-image, .relax-one-image {
+    display: none;
+  }
+  .relax-one-image-mobile, .relax-two-image-mobile {
+    display: block;
+  }
+  /* LABIRINTH ZONE CONTAINER */
+  .lab-conatiner {
+    margin: 0 auto;
+    width: 94.133vw;
+    height: 526.933vw;
+    margin-bottom: 3vw;
+  }
+  .lab-content {
+    gap: 2.667vw;
+    width: 94.133vw;
+  }
+  .lab-content-one, .lab-content-two {
+    flex-direction: column;
+    gap: 2.667vw;
+    height: 254.933vw;
+    width: 94.133vw;
+  }
+  .lab-content-one-image-container, .lab-content-two-image-container, .lab-content-two-image-container, .lab-content-two-image-container {
+    height: 126.133vw;
+    width: 94.133vw;
+  }
+  .lab-content-one-image, .lab-content-two-image, .lab-content-two-one-image, .lab-content-two-two-image, .open-space-image {
+    display: none;
+  }
+  .lab-content-one-image-mobile, .lab-content-two-image-mobile, .ab-content-two-one-image-mobile, .lab-content-two-two-image-mobile, .open-space-image-mobile, .lab-content-two-one-image-mobile {
+    display: block;
+  }
+  /* OPEN SPACE CONTAINER */
+  .open-space-container {
+    width: 94.133vw;
+    margin: 0 auto;
+    height: 144.267vw;
+  }
+  .open-space-image-container {
+    width: 94.133vw;
+    height: 120.267vw;
+    border-radius: 4vw;
+  }
+  .open-space-image-mobile {
+    width: 100vw;
+  }
+
+
+
+
+
+  /* DO NOT TOUCH */
+}
