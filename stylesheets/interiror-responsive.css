@@ -1,13 +1,10 @@
 @media screen and (max-width:600px) {
-  /* .header-hamburger-menu {
-    z-index: 3;
+  .header-hamburger-menu {
+    z-index: 2;
   }
   .header-hamburger-menu-btn {
     z-index: 3;
   }
-  .header-hamburger-menu-btn.active {
-    z-index: 3;
-  } */
   .inter-one-image-container {
     margin: 0 auto;
     width: 94.133vw;
