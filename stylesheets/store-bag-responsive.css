@@ -1,70 +1,71 @@
 @media screen and (max-width:600px) {
   /* FIRST IMAGE CONTAINER */
-  .first-image-manual-container, .manual-container, .first-image-toys-container, .first-image-theatre-container, .theatre-container, .toys-container, .first-image-medi-container, .medi-container, .first-image-care-container, .care-container, .first-image-space-container, .space-container, .first-image-performance-container, .performance-container {
+  .first-image-bag-container, .bag-container, .first-image-book-container, .book-container, .first-image-box-container, .box-container, .first-image-paper-container, .paper-container, .first-image-pillow-container, .pillow-container, .first-image-card-container, .card-container, .first-image-cloth-container, .cloth-container, .first-image-hat-container, .hat-container, .first-image-plaid-container, .plaid-container {
     width: 94.133vw;
     height: auto;
     border-radius: 4vw;
     margin-bottom: 2.667vw;
   }
-  .image-manual-container, .image-toys-container, .image-theatre-container, .image-medi-container, .image-care-container, .image-space-container, .image-performance-container {
+  .image-bag-container, .image-book-container, .image-box-container, .image-paper-container, .image-pillow-container, .image-card-container, .image-cloth-container, .image-hat-container, .image-plaid-container {
     width: 94.133vw;
     height: 119.467vw;
     border-radius: 4vw;
     margin-bottom: 5.333vw;
   }
-  .first-image-manual, .manual-content-one-image, .manual-content-two-image, .first-image-toys, .first-image-theatre, .toys-content-one-image, .theatre-content-one-image, .first-image-medi, .medi-content-one-image, .medi-content-two-image, .first-image-care, .care-content-one-image, .care-content-two-image, .first-image-space, .space-content-one-image, .space-content-two-image, .first-image-performance, .performance-content-one-image, .performance-content-two-image {
+  .first-image-bag, .bag-content-one-image, .bag-content-two-image, .first-image-book, .book-content-one-image, .book-content-two-image, .first-image-box, .box-content-one-image, .box-content-two-image, .first-image-paper, .paper-content-one-image, .paper-content-two-image, .first-image-pillow, .pillow-content-one-image, .pillow-content-two-image, .first-image-card, .card-content-one-image, .card-content-two-image, .first-image-cloth, .cloth-content-one-image, .cloth-content-two-image, .first-image-hat, .hat-content-one-image, .hat-content-two-image, .first-image-plaid, .plaid-content-one-image, .plaid-content-two-image {
     display: none;
   }
-  /* .first-image-manual-container {
-    width: 94.133vw;
-    height: 119.467vw;
-    border-radius: 4vw;
-  } */
-  .first-image-manual-mobile, .manual-content-one-image-mobile, .manual-content-two-image-mobile, .first-image-toys-mobile, .toys-content-one-image-mobile, .first-image-theatre-mobile, .theatre-content-one-image-mobile, .medi-content-two-image-mobile, .medi-content-one-image-mobile, .first-image-medi-mobile, .care-content-two-image-mobile, .care-content-one-image-mobile, .first-image-care-mobile, .space-content-two-image-mobile, .space-content-one-image-mobile, .first-image-space-mobile, .first-image-performance-mobile, .performance-content-one-image-mobile, .performance-content-two-image-mobile {
+  .bag-content-two-image-mobile, .bag-content-one-image-mobile, .first-image-bag-mobile, .book-content-two-image-mobile, .book-content-one-image-mobile, .first-image-book-mobile, .box-content-two-image-mobile, .box-content-one-image-mobile, .first-image-box-mobile, .paper-content-two-image-mobile, .paper-content-one-image-mobile, .first-image-paper-mobile, .pillow-content-two-image-mobile, .pillow-content-one-image-mobile, .first-image-pillow-mobile, .card-content-two-image-mobile, .card-content-one-image-mobile, .first-image-card-mobile, .cloth-content-two-image-mobile, .cloth-content-one-image-mobile, .first-image-cloth-mobile, .hat-content-two-image-mobile, .hat-content-one-image-mobile, .first-image-hat-mobile, .plaid-content-two-image-mobile, .plaid-content-one-image-mobile, .first-image-plaid-mobile {
     display: block;
     width: 95vw;
   }
   /* MANUAL CONTAINER */
-  .manual-tags, .toys-tags, .theatre-tags, .medi-tags, .care-tags, .space-tags, .performance-tags {
+  .bag-tags, .book-tags, .box-tags, .paper-tags, .pillow-tags, .card-tags, .cloth-tags, .hat-tags, .plaid-tags {
     width: 94.133vw;
     flex-wrap: wrap;
     height: auto;
     gap: 2.667vw;
     margin-bottom: 5.333vw;
   }
-  .manual-tag-one, .manual-tag-two, .manual-tag-three, .toys-tag-one, .toys-tag-two, .toys-tag-three, .theatre-tag-one, .theatre-tag-two, .theatre-tag-three, .medi-tag-one, .medi-tag-two, .medi-tag-three, .care-tag-one, .care-tag-two, .care-tag-three, .space-tag-one, .space-tag-two, .space-tag-three, .performance-tag-one, .performance-tag-two, .performance-tag-three {
+  .bag-tag-one, .bag-tag-two, .bag-tag-three, .book-tag-one, .book-tag-two, .book-tag-three, .box-tag-one, .box-tag-two, .box-tag-three, .paper-tag-one, .paper-tag-two, .paper-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .card-tag-one, .card-tag-two, .card-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .hat-tag-one, .hat-tag-two, .hat-tag-three, .plaid-tag-one, .plaid-tag-two, .plaid-tag-three  {
     padding: 2.758vw 7.833vw;
   }
-  .manual-subtittle, .toys-subtittle, .theatre-subtittle, .medi-subtittle, .care-subtittle, .space-subtittle, .performance-subtittle {
+  .bag-subtittle, .book-subtittle, .box-subtittle, .paper-subtittle, .pillow-subtittle, .card-subtittle, .cloth-subtittle, .hat-subtittle, .plaid-subtittle {
     width: 94.133vw;
+    margin-bottom: 3.5vw;
   }
-  .manual-content, .toys-content, .theatre-content, .medi-content, .care-content, .space-content, .performance-content {
+  .bag-content, .book-content, .box-content, .paper-content, .pillow-content, .card-content, .cloth-content, .hat-content, .plaid-content {
     width: 94.133vw;
     height: auto;
     flex-direction: column;
     border-radius: 4vw;
   }
-  .manual-content-one, .toys-content-one, .theatre-content-one, .medi-content-one, .care-content-one, .space-content-one, .performance-content-one {
+  .bag-content-one, .book-content-one, .box-content-one, .paper-content-one, .pillow-content-one, .card-content-one, .cloth-content-one, .hat-content-one, .plaid-content-one {
     width: 94.133vw;
     height: auto;
     border-radius: 4vw;
     gap: 4vw;
   }
-  .manual-content-one-image-container, .toys-content-one-image-container, .theatre-content-one-image-container, .medi-content-one-image-container, .care-content-one-image-container, .space-content-one-image-container, .performance-content-one-image-container {
+  .bag-content-one-image-container, .book-content-one-image-container, .box-content-one-image-container, .paper-content-one-image-container, .pillow-content-one-image-container, .card-content-one-image-container, .cloth-content-one-image-container, .hat-content-one-image-container, .plaid-content-one-image-container {
     width: 94.133vw;
     height: 107.200vw;
     border-radius: 4vw;
   }
-  .manual-topic-one, .manual-topic-two, .toys-topic-one, .toys-topic-two, .theatre-topic-one, .theatre-topic-two, .medi-topic-one, .medi-topic-two, .care-topic-one, .care-topic-two, .space-topic-one, .space-topic-two, .performance-topic-one, .performance-topic-two {
+  .bag-topic-one, .book-topic-one, .box-topic-one, .paper-topic-one, .pillow-topic-one, .card-topic-one, .cloth-topic-one, .hat-topic-one, .plaid-topic-one {
     width: 94.133vw;
   }
-  .manual-topic-two, .toys-topic-two, .theatre-topic-two, .medi-topic-two, .care-topic-two, .space-topic-two, .performance-topic-two {
-    margin-bottom: 2.667vw;
-  }
-  .manual-content-two, .manual-content-two-image-container, .toys-content-two, .toys-content-two-image-container, .theatre-content-two, .theatre-content-two-image-container, .medi-content-two, .medi-content-two-image-container, .care-content-two, .care-content-two-image-container, .space-content-two, .space-content-two-image-container, .performance-content-two, .performance-content-two-image-container {
+  .bag-content-two, .bag-content-two-image-container, .book-content-two, .book-content-two-image-container, .box-content-two, .box-content-two-image-containe, .box-content-two-image-container, .paper-content-two, .paper-content-two-image-container, .pillow-content-two, .pillow-content-two-image-container, .card-content-two, .card-content-two-image-container, .cloth-content-two, .cloth-content-two-image-container, .hat-content-two, .hat-content-two-image-container, .plaid-content-two, .plaid-content-two-image-container {
     width: 94.133vw;
     height: 86.133vw;
     border-radius: 4vw;
+    margin-bottom: 3vw;
+  }
+  .bag-button, .book-button, .box-button, .paper-button, .pillow-button, .card-button, .cloth-button, .hat-button, .plaid-button {
+    width: 55vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    border-radius: 2.667vw;
+    margin-bottom: 2vw;
   }
   /* TOYS */
   .toys-content-one-image-mobile {

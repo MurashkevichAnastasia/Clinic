@@ -1,90 +1,90 @@
-.first-image-bag-container, .bag-container {
+.first-image-bag-container, .bag-container, .first-image-book-container, .book-container, .first-image-box-container, .box-container, .first-image-paper-container, .paper-container, .pillow-container, .first-image-pillow-container, .first-image-card-container, .card-container, .first-image-cloth-container, .cloth-container, .first-image-hat-container, .hat-container, .first-image-plaid-container, .plaid-container {
   width: 96.212vw;
   margin: 0 auto;
   margin-bottom: 2.273vw;
   /* margin-bottom: 1.515vw; */
 }
-.bag-container {
+.bag-container, .book-container, .box-container, .paper-container, .pillow-container, .card-container, .cloth-container, .hat-container, .plaid-container {
   margin-bottom: 1vw;
 }
-.image-bag-container {
+.image-bag-container, .image-book-container, .image-box-container, .image-paper-container, .image-pillow-container, .image-card-container, .image-cloth-container, .image-hat-container, .image-plaid-container {
   width: 96.212vw;
   height: 55.455vw;
   border-radius: 1.136vw;
   overflow: hidden;
   background: #52B5F9;
 }
-.first-image-bag {
+.first-image-bag, .first-image-book, .first-image-box, .first-image-paper, .first-image-pillow, .first-image-card, .first-image-cloth, .first-image-hat, .first-image-plaid {
   width: 100vw;
   transition: transform .8s;
 }
-.first-image-bag:hover {
+.first-image-bag:hover, .first-image-book:hover, .first-image-box:hover, .first-image-paper:hover, .first-image-pillow:hover, .first-image-card:hover, .first-image-cloth:hover, .first-image-hat:hover, .first-image-plaid:hover {
   transform: scale(1.1);
 }
-.first-image-bag-mobile, .bag-content-one-image-mobile, .bag-content-two-image-mobile {
+.first-image-bag-mobile, .bag-content-one-image-mobile, .bag-content-two-image-mobile, .first-image-book-mobile, .book-content-one-image-mobile, .book-content-two-image-mobile, .first-image-box-mobile, .box-content-one-image-mobile, .box-content-two-image-mobile, .first-image-paper-mobile, .paper-content-one-image-mobile, .paper-content-two-image-mobile, .first-image-pillow-mobile, .pillow-content-one-image-mobile, .pillow-content-two-image-mobile, .first-image-card-mobile, .card-content-one-image-mobile, .card-content-two-image-mobile, .first-image-cloth-mobile, .cloth-content-one-image-mobile, .cloth-content-two-image-mobile, .first-image-hat-mobile, .hat-content-one-image-mobile, .hat-content-two-image-mobile, .first-image-plaid-mobile, .plaid-content-one-image-mobile, .plaid-content-two-image-mobile {
   display: none;
 }
 /* STORE CONTAINER */
-.bag-tittle {
+.bag-tittle, .book-tittle, .box-tittle, .paper-tittle, .pillow-tittle, .card-tittle, .cloth-tittle, .hat-tittle, .plaid-tittle {
   width: 96.212vw;
   margin-bottom: 3vw;
 }
-.bag-tags {
+.bag-tags, .book-tags, .box-tags, .paper-tags, .pillow-tags, .card-tags, .cloth-tags, .hat-tags, .plaid-tags {
   display: flex;
   flex-direction: row;
   gap: 1.136vw;
   margin-bottom: 2.273vw;
 }
-.bag-tag-one, .bag-tag-two, .bag-tag-three {
+.bag-tag-one, .bag-tag-two, .bag-tag-three, .book-tag-one, .book-tag-two, .book-tag-three, .box-tag-one, .box-tag-two, .box-tag-three, .paper-tag-one, .paper-tag-two, .paper-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .card-tag-one, .card-tag-two, .card-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .hat-tag-one, .hat-tag-two, .hat-tag-three, .plaid-tag-one, .plaid-tag-two, .plaid-tag-three {
   padding: 0.758vw 0.833vw;
   background: #DB062D;
   border-radius: 500px;
 }
-.bag-subtittle {
+.bag-subtittle, .book-subtittle, .box-subtittle, .paper-subtittle, .pillow-subtittle, .card-subtittle, .cloth-subtittle, .hat-subtittle, .plaid-subtittle {
   width: 55.379vw;
   margin-bottom: 2.273vw;
 }
-.bag-content {
+.bag-content, .book-content, .box-content, .paper-content, .pillow-content, .card-content, .cloth-content, .hat-content, .plaid-content {
   width: 96.212vw;
   height: auto;
   display: flex;
   flex-direction: row;
   gap: 1.515vw;
 }
-.bag-content-one, .bag-content-two {
+.bag-content-one, .bag-content-two, .book-content-one, .book-content-two, .box-content-one, .box-content-two, .paper-content-one, .paper-content-two, .pillow-content-one, .pillow-content-two, .card-content-one, .card-content-two, .cloth-content-one, .cloth-content-two, .hat-content-one, .hat-content-two, .plaid-content-one, .plaid-content-two {
   display: flex;
   flex-direction: column;
   gap: 2.273vw;
   width: 55.455vw;
   height: 55vw;
 }
-.bag-content-one-image-container, .bag-content-two-image-container {
+.bag-content-one-image-container, .bag-content-two-image-container, .book-content-one-image-container, .book-content-two-image-container, .box-content-one-image-container, .box-content-two-image-container, .paper-content-one-image-container, .paper-content-two-image-container, .pillow-content-one-image-container, .pillow-content-two-image-container, .card-content-two-image-container, .card-content-one-image-container, .cloth-content-one-image-container, .cloth-content-two-image-container, .hat-content-one-image-container, .hat-content-two-image-container, .plaid-content-one-image-container, .plaid-content-two-image-container {
   width: 55.455vw;
   height: 38.182vw;
   overflow: hidden;
   border-radius: 1.136vw;
   background: #52B5F9;
 }
-.bag-content-one-image, .bag-content-two-image {
+.bag-content-one-image, .bag-content-two-image, .book-content-one-image, .book-content-two-image, .box-content-one-image, .box-content-two-image, .paper-content-one-image, .paper-content-two-image, .pillow-content-one-image, .pillow-content-two-image, .card-content-one-image, .card-content-two-image, .cloth-content-one-image, .cloth-content-two-image, .hat-content-one-image, .hat-content-two-image, .plaid-content-one-image, .plaid-content-two-image {
   width: 70vw;
   transition: transform .8s;
 }
-.bag-content-one-image:hover, .bag-content-two-image:hover {
+.bag-content-one-image:hover, .bag-content-two-image:hover, .book-content-two-image:hover, .book-content-one-image:hover, .box-content-one-image:hover, .box-content-two-image:hover, .paper-content-one-image:hover, .paper-content-two-image:hover, .pillow-content-one-image:hover, .pillow-content-two-image:hover, .card-content-one-image:hover, .card-content-two-image:hover, .cloth-content-one-image:hover, .cloth-content-two-image:hover, .hat-content-one-image:hover, .hat-content-two-image:hover, .plaid-content-one-image:hover, .plaid-content-two-image:hover {
   transform: scale(1.1);
 }
-.bag-topic-one {
+.bag-topic-one, .book-topic-one, .box-topic-one, .paper-topic-one, .pillow-topic-one, .card-topic-one, .cloth-topic-one, .hat-topic-one, .plaid-topic-one {
   width: 55.379vw;
 }
-.bag-content-two {
+.bag-content-two, .book-content-two, .box-content-two, .paper-content-two, .paper-content-two-image-container, .pillow-content-two, .card-content-two, .cloth-content-two, .hat-content-two, .plaid-content-two {
   width: 39.242vw;
 }
-.bag-content-two-image-container {
+.bag-content-two-image-container, .book-content-two-image-container, .box-content-two-image-container, .paper-content-two-image-container, .pillow-content-two-image-container, .card-content-two-image-container, .cloth-content-two-image-container, .hat-content-two-image-container, .plaid-content-two-image-container {
   width: 39.242vw;
 }
-.bag-content-two-image {
+.bag-content-two-image, .book-content-two-image, .box-content-two-image, .paper-content-two-image, .pillow-content-two-image, .card-content-two-image, .cloth-content-two-image, .hat-content-two-image, .plaid-content-two-image {
   width: 42vw;
 }
-.bag-button {
+.bag-button, .book-button, .box-button, .paper-button, .pillow-button, .card-button, .cloth-button, .hat-button, .plaid-button {
   width: 8.712vw;
   height: auto;
   border-radius: 0.758vw;
@@ -97,7 +97,7 @@
   padding-right: 0.5vw;
   transition: 0.2s;
 }
-.bag-button:hover {
+.bag-button:hover, .book-button:hover, .box-button:hover, .paper-button:hover, .pillow-button:hover, .card-button:hover, .cloth-button:hover, .hat-button:hover, .plaid-button:hover {
   background: #FFBB0E;
 }
 .button-text {
@@ -107,9 +107,9 @@
 .button-text:hover {
   color: white;
 }
-/* TOYS */
-.toys-tag-one, .toys-tag-two, .toys-tag-three {
-  background: #DB062D;
+/* BOOK */
+.book-tag-one, .book-tag-two, .book-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three {
+  background: #FFBB0E;
 }
 .care-content-two-image-container {
   height: 35.9vw;
@@ -117,4 +117,23 @@
 /* MEDI */
 .space-content-one-image {
   width: 60vw;
+}
+/* PAPER */
+.paper-tag-one, .paper-tag-two, .paper-tag-three {
+  background: #52B5F9;
+}
+/* CARD */
+.card-tag-one, .card-tag-two, .card-tag-three {
+  background: #104FFF;
+}
+.card-content-one-image {
+  width: 60vw;
+}
+/* HAT */
+.hat-tag-one, .hat-tag-two, .hat-tag-three  {
+  background: #DB062D;
+}
+/* PLAID */
+.plaid-tag-one, .plaid-tag-two, .plaid-tag-three {
+  background: #6610F5;
 }
