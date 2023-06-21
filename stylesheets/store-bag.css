@@ -1,0 +1,120 @@
+.first-image-bag-container, .bag-container {
+  width: 96.212vw;
+  margin: 0 auto;
+  margin-bottom: 2.273vw;
+  /* margin-bottom: 1.515vw; */
+}
+.bag-container {
+  margin-bottom: 1vw;
+}
+.image-bag-container {
+  width: 96.212vw;
+  height: 55.455vw;
+  border-radius: 1.136vw;
+  overflow: hidden;
+  background: #52B5F9;
+}
+.first-image-bag {
+  width: 100vw;
+  transition: transform .8s;
+}
+.first-image-bag:hover {
+  transform: scale(1.1);
+}
+.first-image-bag-mobile, .bag-content-one-image-mobile, .bag-content-two-image-mobile {
+  display: none;
+}
+/* STORE CONTAINER */
+.bag-tittle {
+  width: 96.212vw;
+  margin-bottom: 3vw;
+}
+.bag-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 1.136vw;
+  margin-bottom: 2.273vw;
+}
+.bag-tag-one, .bag-tag-two, .bag-tag-three {
+  padding: 0.758vw 0.833vw;
+  background: #DB062D;
+  border-radius: 500px;
+}
+.bag-subtittle {
+  width: 55.379vw;
+  margin-bottom: 2.273vw;
+}
+.bag-content {
+  width: 96.212vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1.515vw;
+}
+.bag-content-one, .bag-content-two {
+  display: flex;
+  flex-direction: column;
+  gap: 2.273vw;
+  width: 55.455vw;
+  height: 55vw;
+}
+.bag-content-one-image-container, .bag-content-two-image-container {
+  width: 55.455vw;
+  height: 38.182vw;
+  overflow: hidden;
+  border-radius: 1.136vw;
+  background: #52B5F9;
+}
+.bag-content-one-image, .bag-content-two-image {
+  width: 70vw;
+  transition: transform .8s;
+}
+.bag-content-one-image:hover, .bag-content-two-image:hover {
+  transform: scale(1.1);
+}
+.bag-topic-one {
+  width: 55.379vw;
+}
+.bag-content-two {
+  width: 39.242vw;
+}
+.bag-content-two-image-container {
+  width: 39.242vw;
+}
+.bag-content-two-image {
+  width: 42vw;
+}
+.bag-button {
+  width: 8.712vw;
+  height: auto;
+  border-radius: 0.758vw;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  transition: 0.2s;
+}
+.bag-button:hover {
+  background: #FFBB0E;
+}
+.button-text {
+  color: black;
+  transition: 0.2s;
+}
+.button-text:hover {
+  color: white;
+}
+/* TOYS */
+.toys-tag-one, .toys-tag-two, .toys-tag-three {
+  background: #DB062D;
+}
+.care-content-two-image-container {
+  height: 35.9vw;
+}
+/* MEDI */
+.space-content-one-image {
+  width: 60vw;
+}

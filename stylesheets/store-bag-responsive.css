@@ -1,0 +1,90 @@
+@media screen and (max-width:600px) {
+  /* FIRST IMAGE CONTAINER */
+  .first-image-manual-container, .manual-container, .first-image-toys-container, .first-image-theatre-container, .theatre-container, .toys-container, .first-image-medi-container, .medi-container, .first-image-care-container, .care-container, .first-image-space-container, .space-container, .first-image-performance-container, .performance-container {
+    width: 94.133vw;
+    height: auto;
+    border-radius: 4vw;
+    margin-bottom: 2.667vw;
+  }
+  .image-manual-container, .image-toys-container, .image-theatre-container, .image-medi-container, .image-care-container, .image-space-container, .image-performance-container {
+    width: 94.133vw;
+    height: 119.467vw;
+    border-radius: 4vw;
+    margin-bottom: 5.333vw;
+  }
+  .first-image-manual, .manual-content-one-image, .manual-content-two-image, .first-image-toys, .first-image-theatre, .toys-content-one-image, .theatre-content-one-image, .first-image-medi, .medi-content-one-image, .medi-content-two-image, .first-image-care, .care-content-one-image, .care-content-two-image, .first-image-space, .space-content-one-image, .space-content-two-image, .first-image-performance, .performance-content-one-image, .performance-content-two-image {
+    display: none;
+  }
+  /* .first-image-manual-container {
+    width: 94.133vw;
+    height: 119.467vw;
+    border-radius: 4vw;
+  } */
+  .first-image-manual-mobile, .manual-content-one-image-mobile, .manual-content-two-image-mobile, .first-image-toys-mobile, .toys-content-one-image-mobile, .first-image-theatre-mobile, .theatre-content-one-image-mobile, .medi-content-two-image-mobile, .medi-content-one-image-mobile, .first-image-medi-mobile, .care-content-two-image-mobile, .care-content-one-image-mobile, .first-image-care-mobile, .space-content-two-image-mobile, .space-content-one-image-mobile, .first-image-space-mobile, .first-image-performance-mobile, .performance-content-one-image-mobile, .performance-content-two-image-mobile {
+    display: block;
+    width: 95vw;
+  }
+  /* MANUAL CONTAINER */
+  .manual-tags, .toys-tags, .theatre-tags, .medi-tags, .care-tags, .space-tags, .performance-tags {
+    width: 94.133vw;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 2.667vw;
+    margin-bottom: 5.333vw;
+  }
+  .manual-tag-one, .manual-tag-two, .manual-tag-three, .toys-tag-one, .toys-tag-two, .toys-tag-three, .theatre-tag-one, .theatre-tag-two, .theatre-tag-three, .medi-tag-one, .medi-tag-two, .medi-tag-three, .care-tag-one, .care-tag-two, .care-tag-three, .space-tag-one, .space-tag-two, .space-tag-three, .performance-tag-one, .performance-tag-two, .performance-tag-three {
+    padding: 2.758vw 7.833vw;
+  }
+  .manual-subtittle, .toys-subtittle, .theatre-subtittle, .medi-subtittle, .care-subtittle, .space-subtittle, .performance-subtittle {
+    width: 94.133vw;
+  }
+  .manual-content, .toys-content, .theatre-content, .medi-content, .care-content, .space-content, .performance-content {
+    width: 94.133vw;
+    height: auto;
+    flex-direction: column;
+    border-radius: 4vw;
+  }
+  .manual-content-one, .toys-content-one, .theatre-content-one, .medi-content-one, .care-content-one, .space-content-one, .performance-content-one {
+    width: 94.133vw;
+    height: auto;
+    border-radius: 4vw;
+    gap: 4vw;
+  }
+  .manual-content-one-image-container, .toys-content-one-image-container, .theatre-content-one-image-container, .medi-content-one-image-container, .care-content-one-image-container, .space-content-one-image-container, .performance-content-one-image-container {
+    width: 94.133vw;
+    height: 107.200vw;
+    border-radius: 4vw;
+  }
+  .manual-topic-one, .manual-topic-two, .toys-topic-one, .toys-topic-two, .theatre-topic-one, .theatre-topic-two, .medi-topic-one, .medi-topic-two, .care-topic-one, .care-topic-two, .space-topic-one, .space-topic-two, .performance-topic-one, .performance-topic-two {
+    width: 94.133vw;
+  }
+  .manual-topic-two, .toys-topic-two, .theatre-topic-two, .medi-topic-two, .care-topic-two, .space-topic-two, .performance-topic-two {
+    margin-bottom: 2.667vw;
+  }
+  .manual-content-two, .manual-content-two-image-container, .toys-content-two, .toys-content-two-image-container, .theatre-content-two, .theatre-content-two-image-container, .medi-content-two, .medi-content-two-image-container, .care-content-two, .care-content-two-image-container, .space-content-two, .space-content-two-image-container, .performance-content-two, .performance-content-two-image-container {
+    width: 94.133vw;
+    height: 86.133vw;
+    border-radius: 4vw;
+  }
+  /* TOYS */
+  .toys-content-one-image-mobile {
+    width: 95vw;
+  }
+  .toys-content-two-image, .theatre-content-two-image {
+    width: 95vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* DO NOT TOUCH */
+}
