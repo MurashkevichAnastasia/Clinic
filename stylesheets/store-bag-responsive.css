@@ -1,66 +1,66 @@
 @media screen and (max-width:600px) {
   /* FIRST IMAGE CONTAINER */
-  .first-image-bag-container, .bag-container, .first-image-book-container, .book-container, .first-image-box-container, .box-container, .first-image-paper-container, .paper-container, .first-image-pillow-container, .pillow-container, .first-image-card-container, .card-container, .first-image-cloth-container, .cloth-container, .first-image-hat-container, .hat-container, .first-image-plaid-container, .plaid-container {
+  .first-image-bag-container, .bag-container, .first-image-book-container, .book-container, .first-image-box-container, .box-container, .first-image-paper-container, .paper-container, .first-image-pillow-container, .pillow-container, .first-image-card-container, .card-container, .first-image-cloth-container, .cloth-container, .first-image-hat-container, .hat-container, .first-image-plaid-container, .plaid-container, .first-image-shoes-container, .shoes-container, .first-image-flyer-container, .flyer-container, .first-image-shelve-container, .shelve-container, .first-image-can-container, .can-container, .first-image-positive-container, .positive-container, .first-image-red-space-container, .red-space-container, .first-image-blue-space-container, .blue-space-container, .first-image-nerv-container, .nerv-container, .first-image-nervtoo-container, .nervtoo-container, .first-image-nervend-container, .nervend-container {
     width: 94.133vw;
     height: auto;
     border-radius: 4vw;
     margin-bottom: 2.667vw;
   }
-  .image-bag-container, .image-book-container, .image-box-container, .image-paper-container, .image-pillow-container, .image-card-container, .image-cloth-container, .image-hat-container, .image-plaid-container {
+  .image-bag-container, .image-book-container, .image-box-container, .image-paper-container, .image-pillow-container, .image-card-container, .image-cloth-container, .image-hat-container, .image-plaid-container, .image-shoes-container, .image-flyer-container, .image-shelve-container, .image-can-container, .image-positive-container, .image-red-space-container, .image-blue-space-container, .image-nerv-container, .image-nervtoo-container, .image-nervend-container {
     width: 94.133vw;
     height: 119.467vw;
     border-radius: 4vw;
     margin-bottom: 5.333vw;
   }
-  .first-image-bag, .bag-content-one-image, .bag-content-two-image, .first-image-book, .book-content-one-image, .book-content-two-image, .first-image-box, .box-content-one-image, .box-content-two-image, .first-image-paper, .paper-content-one-image, .paper-content-two-image, .first-image-pillow, .pillow-content-one-image, .pillow-content-two-image, .first-image-card, .card-content-one-image, .card-content-two-image, .first-image-cloth, .cloth-content-one-image, .cloth-content-two-image, .first-image-hat, .hat-content-one-image, .hat-content-two-image, .first-image-plaid, .plaid-content-one-image, .plaid-content-two-image {
+  .first-image-bag, .bag-content-one-image, .bag-content-two-image, .first-image-book, .book-content-one-image, .book-content-two-image, .first-image-box, .box-content-one-image, .box-content-two-image, .first-image-paper, .paper-content-one-image, .paper-content-two-image, .first-image-pillow, .pillow-content-one-image, .pillow-content-two-image, .first-image-card, .card-content-one-image, .card-content-two-image, .first-image-cloth, .cloth-content-one-image, .cloth-content-two-image, .first-image-hat, .hat-content-one-image, .hat-content-two-image, .first-image-plaid, .plaid-content-one-image, .plaid-content-two-image, .first-image-shoes, .shoes-content-one-image, .shoes-content-two-image, .first-image-flyer, .flyer-content-one-image, .flyer-content-two-image, .first-image-shelve, .shelve-content-one-image, .shelve-content-two-image, .first-image-can, .can-content-one-image, .can-content-two-image, .first-image-positive, .positive-content-one-image, .positive-content-two-image, .first-image-red-space, .red-space-content-one-image, .red-space-content-two-image, .first-image-blue-space, .blue-space-content-one-image, .blue-space-content-two-image, .first-image-nerv, .nerv-content-one-image, .nerv-content-two-image, .first-image-nervtoo, .nervtoo-content-one-image, .nervtoo-content-two-image, .first-image-nervend, .nervend-content-one-image, .nervend-content-two-image {
     display: none;
   }
-  .bag-content-two-image-mobile, .bag-content-one-image-mobile, .first-image-bag-mobile, .book-content-two-image-mobile, .book-content-one-image-mobile, .first-image-book-mobile, .box-content-two-image-mobile, .box-content-one-image-mobile, .first-image-box-mobile, .paper-content-two-image-mobile, .paper-content-one-image-mobile, .first-image-paper-mobile, .pillow-content-two-image-mobile, .pillow-content-one-image-mobile, .first-image-pillow-mobile, .card-content-two-image-mobile, .card-content-one-image-mobile, .first-image-card-mobile, .cloth-content-two-image-mobile, .cloth-content-one-image-mobile, .first-image-cloth-mobile, .hat-content-two-image-mobile, .hat-content-one-image-mobile, .first-image-hat-mobile, .plaid-content-two-image-mobile, .plaid-content-one-image-mobile, .first-image-plaid-mobile {
+  .bag-content-two-image-mobile, .bag-content-one-image-mobile, .first-image-bag-mobile, .book-content-two-image-mobile, .book-content-one-image-mobile, .first-image-book-mobile, .box-content-two-image-mobile, .box-content-one-image-mobile, .first-image-box-mobile, .paper-content-two-image-mobile, .paper-content-one-image-mobile, .first-image-paper-mobile, .pillow-content-two-image-mobile, .pillow-content-one-image-mobile, .first-image-pillow-mobile, .card-content-two-image-mobile, .card-content-one-image-mobile, .first-image-card-mobile, .cloth-content-two-image-mobile, .cloth-content-one-image-mobile, .first-image-cloth-mobile, .hat-content-two-image-mobile, .hat-content-one-image-mobile, .first-image-hat-mobile, .plaid-content-two-image-mobile, .plaid-content-one-image-mobile, .first-image-plaid-mobile, .shoes-content-two-image-mobile, .shoes-content-one-image-mobile, .first-image-shoes-mobile, .flyer-content-two-image-mobile, .flyer-content-one-image-mobile, .first-image-flyer-mobile, .shelve-content-two-image-mobile, .shelve-content-one-image-mobile, .first-image-shelve-mobile, .can-content-two-image-mobile, .can-content-one-image-mobile, .first-image-can-mobile, .positive-content-two-image-mobile, .positive-content-one-image-mobile, .first-image-positive-mobile, .red-space-content-two-image-mobile, .red-space-content-one-image-mobile, .first-image-red-space-mobile, .blue-space-content-two-image-mobile, .blue-space-content-one-image-mobile, .first-image-blue-space-mobile, .nerv-content-two-image-mobile, .nerv-content-one-image-mobile, .first-image-nerv-mobile, .nervtoo-content-two-image-mobile, .nervtoo-content-one-image-mobile, .first-image-nervtoo-mobile, .nervend-content-two-image-mobile, .nervend-content-one-image-mobile, .first-image-nervend-mobile {
     display: block;
     width: 95vw;
   }
   /* MANUAL CONTAINER */
-  .bag-tags, .book-tags, .box-tags, .paper-tags, .pillow-tags, .card-tags, .cloth-tags, .hat-tags, .plaid-tags {
+  .bag-tags, .book-tags, .box-tags, .paper-tags, .pillow-tags, .card-tags, .cloth-tags, .hat-tags, .plaid-tags, .shoes-tags, .flyer-tags, .shelve-tags, .can-tags, .positive-tags, .red-space-tags, .blue-space-tags, .nerv-tags, .nervtoo-tags, .nervend-tags {
     width: 94.133vw;
     flex-wrap: wrap;
     height: auto;
     gap: 2.667vw;
     margin-bottom: 5.333vw;
   }
-  .bag-tag-one, .bag-tag-two, .bag-tag-three, .book-tag-one, .book-tag-two, .book-tag-three, .box-tag-one, .box-tag-two, .box-tag-three, .paper-tag-one, .paper-tag-two, .paper-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .card-tag-one, .card-tag-two, .card-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .hat-tag-one, .hat-tag-two, .hat-tag-three, .plaid-tag-one, .plaid-tag-two, .plaid-tag-three  {
+  .bag-tag-one, .bag-tag-two, .bag-tag-three, .book-tag-one, .book-tag-two, .book-tag-three, .box-tag-one, .box-tag-two, .box-tag-three, .paper-tag-one, .paper-tag-two, .paper-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .card-tag-one, .card-tag-two, .card-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .hat-tag-one, .hat-tag-two, .hat-tag-three, .plaid-tag-one, .plaid-tag-two, .plaid-tag-three, .shoes-tag-one, .shoes-tag-two, .shoes-tag-three, .flyer-tag-one, .flyer-tag-two, .flyer-tag-three, .shelve-tag-one, .shelve-tag-two, .shelve-tag-three, .can-tag-one, .can-tag-two, .can-tag-three, .positive-tag-one, .positive-tag-two, .positive-tag-three, .red-space-tag-one, .red-space-tag-two, .red-space-tag-three, .blue-space-tag-one, .blue-space-tag-two, .blue-space-tag-three, .nerv-tag-one, .nerv-tag-two, .nerv-tag-three, .nervtoo-tag-one, .nervtoo-tag-two, .nervtoo-tag-three, .nervend-tag-one, .nervend-tag-two, .nervend-tag-three {
     padding: 2.758vw 7.833vw;
   }
-  .bag-subtittle, .book-subtittle, .box-subtittle, .paper-subtittle, .pillow-subtittle, .card-subtittle, .cloth-subtittle, .hat-subtittle, .plaid-subtittle {
+  .bag-subtittle, .book-subtittle, .box-subtittle, .paper-subtittle, .pillow-subtittle, .card-subtittle, .cloth-subtittle, .hat-subtittle, .plaid-subtittle, .shoes-subtittle, .flyer-subtittle, .shelve-subtittle, .can-subtittle, .positive-subtittle, .red-space-subtittle, .blue-space-subtittle, .nerv-subtittle, .nervtoo-subtittle, .nervend-subtittle {
     width: 94.133vw;
     margin-bottom: 3.5vw;
   }
-  .bag-content, .book-content, .box-content, .paper-content, .pillow-content, .card-content, .cloth-content, .hat-content, .plaid-content {
+  .bag-content, .book-content, .box-content, .paper-content, .pillow-content, .card-content, .cloth-content, .hat-content, .plaid-content, .shoes-content, .flyer-content, .shelve-content, .can-content, .positive-content, .red-space-content, .blue-space-content, .nerv-content, .nervtoo-content, .nervend-content {
     width: 94.133vw;
     height: auto;
     flex-direction: column;
     border-radius: 4vw;
   }
-  .bag-content-one, .book-content-one, .box-content-one, .paper-content-one, .pillow-content-one, .card-content-one, .cloth-content-one, .hat-content-one, .plaid-content-one {
+  .bag-content-one, .book-content-one, .box-content-one, .paper-content-one, .pillow-content-one, .card-content-one, .cloth-content-one, .hat-content-one, .plaid-content-one, .shoes-content-one, .flyer-content-one, .shelve-content-one, .can-content-one, .positive-content-one, .red-space-content-one, .blue-space-content-one, .nerv-content-one, .nervtoo-content-one, .nervend-content-one {
     width: 94.133vw;
     height: auto;
     border-radius: 4vw;
     gap: 4vw;
   }
-  .bag-content-one-image-container, .book-content-one-image-container, .box-content-one-image-container, .paper-content-one-image-container, .pillow-content-one-image-container, .card-content-one-image-container, .cloth-content-one-image-container, .hat-content-one-image-container, .plaid-content-one-image-container {
+  .bag-content-one-image-container, .book-content-one-image-container, .box-content-one-image-container, .paper-content-one-image-container, .pillow-content-one-image-container, .card-content-one-image-container, .cloth-content-one-image-container, .hat-content-one-image-container, .plaid-content-one-image-container, .shoes-content-one-image-container, .flyer-content-one-image-container, .shelve-content-one-image-container, .can-content-one-image-container, .positive-content-one-image-container, .red-space-content-one-image-container, .blue-space-content-one-image-container, .nerv-content-one-image-container, .nervtoo-content-one-image-container, .nervend-content-one-image-container {
     width: 94.133vw;
     height: 107.200vw;
     border-radius: 4vw;
   }
-  .bag-topic-one, .book-topic-one, .box-topic-one, .paper-topic-one, .pillow-topic-one, .card-topic-one, .cloth-topic-one, .hat-topic-one, .plaid-topic-one {
+  .bag-topic-one, .book-topic-one, .box-topic-one, .paper-topic-one, .pillow-topic-one, .card-topic-one, .cloth-topic-one, .hat-topic-one, .plaid-topic-one, .shoes-topic-one, .flyer-topic-one, .shelve-topic-one,.can-topic-one, .positive-topic-one, .red-space-topic-one, .blue-space-topic-one, .nerv-topic-one, .nervtoo-topic-one, .nervend-topic-one {
     width: 94.133vw;
   }
-  .bag-content-two, .bag-content-two-image-container, .book-content-two, .book-content-two-image-container, .box-content-two, .box-content-two-image-containe, .box-content-two-image-container, .paper-content-two, .paper-content-two-image-container, .pillow-content-two, .pillow-content-two-image-container, .card-content-two, .card-content-two-image-container, .cloth-content-two, .cloth-content-two-image-container, .hat-content-two, .hat-content-two-image-container, .plaid-content-two, .plaid-content-two-image-container {
+  .bag-content-two, .bag-content-two-image-container, .book-content-two, .book-content-two-image-container, .box-content-two, .box-content-two-image-containe, .box-content-two-image-container, .paper-content-two, .paper-content-two-image-container, .pillow-content-two, .pillow-content-two-image-container, .card-content-two, .card-content-two-image-container, .cloth-content-two, .cloth-content-two-image-container, .hat-content-two, .hat-content-two-image-container, .plaid-content-two, .plaid-content-two-image-container, .shoes-content-two, .shoes-content-two-image-container, .flyer-content-two, .flyer-content-two-image-container, .shelve-content-two, .shelve-content-two-image-container, .can-content-two, .can-content-two-image-container, .positive-content-two, .positive-content-two-image-container, .red-space-content-two, .red-space-content-two-image-container, .blue-space-content-two, .blue-space-content-two-image-container, .nerv-content-two, .nerv-content-two-image-container, .nervtoo-content-two, .nervtoo-content-two-image-container, .nervend-content-two, .nervend-content-two-image-container {
     width: 94.133vw;
     height: 86.133vw;
     border-radius: 4vw;
     margin-bottom: 3vw;
   }
-  .bag-button, .book-button, .box-button, .paper-button, .pillow-button, .card-button, .cloth-button, .hat-button, .plaid-button {
+  .bag-button, .book-button, .box-button, .paper-button, .pillow-button, .card-button, .cloth-button, .hat-button, .plaid-button, .shoes-button, .flyer-button, .shelve-button, .can-button, .positive-button, .red-space-button, .blue-space-button, .nerv-button, .nervtoo-button, .nervend-button {
     width: 55vw;
     padding-top: 4vw;
     padding-bottom: 4vw;

@@ -1,90 +1,90 @@
-.first-image-bag-container, .bag-container, .first-image-book-container, .book-container, .first-image-box-container, .box-container, .first-image-paper-container, .paper-container, .pillow-container, .first-image-pillow-container, .first-image-card-container, .card-container, .first-image-cloth-container, .cloth-container, .first-image-hat-container, .hat-container, .first-image-plaid-container, .plaid-container {
+.first-image-bag-container, .bag-container, .first-image-book-container, .book-container, .first-image-box-container, .box-container, .first-image-paper-container, .paper-container, .pillow-container, .first-image-pillow-container, .first-image-card-container, .card-container, .first-image-cloth-container, .cloth-container, .first-image-hat-container, .hat-container, .first-image-plaid-container, .plaid-container, .first-image-shoes-container, .shoes-container, .first-image-flyer-container, .flyer-container, .first-image-shelve-container, .shelve-container, .first-image-can-container, .can-container, .first-image-positive-container, .positive-container, .first-image-red-space-container, .red-space-container, .first-image-blue-space-container, .blue-space-container, .first-image-nerv-container, .nerv-container, .first-image-nervtoo-container, .nervtoo-container, .first-image-nervend-container, .nervend-container {
   width: 96.212vw;
   margin: 0 auto;
   margin-bottom: 2.273vw;
   /* margin-bottom: 1.515vw; */
 }
-.bag-container, .book-container, .box-container, .paper-container, .pillow-container, .card-container, .cloth-container, .hat-container, .plaid-container {
+.bag-container, .book-container, .box-container, .paper-container, .pillow-container, .card-container, .cloth-container, .hat-container, .plaid-container, .shoes-container, .flyer-container, .shelve-container, .can-container, .positive-container, .red-space-container, .blue-space-container, .nerv-container, .nervtoo-container, .nervend-container {
   margin-bottom: 1vw;
 }
-.image-bag-container, .image-book-container, .image-box-container, .image-paper-container, .image-pillow-container, .image-card-container, .image-cloth-container, .image-hat-container, .image-plaid-container {
+.image-bag-container, .image-book-container, .image-box-container, .image-paper-container, .image-pillow-container, .image-card-container, .image-cloth-container, .image-hat-container, .image-plaid-container, .image-shoes-container, .image-flyer-container, .image-shelve-container, .image-can-container, .image-positive-container, .image-red-space-container, .image-blue-space-container, .image-nerv-container, .image-nervtoo-container, .image-nervend-container {
   width: 96.212vw;
   height: 55.455vw;
   border-radius: 1.136vw;
   overflow: hidden;
   background: #52B5F9;
 }
-.first-image-bag, .first-image-book, .first-image-box, .first-image-paper, .first-image-pillow, .first-image-card, .first-image-cloth, .first-image-hat, .first-image-plaid {
+.first-image-bag, .first-image-book, .first-image-box, .first-image-paper, .first-image-pillow, .first-image-card, .first-image-cloth, .first-image-hat, .first-image-plaid, .first-image-shoes, .first-image-flyer, .first-image-shelve, .first-image-can, .first-image-positive, .first-image-red-space, .first-image-blue-space, .first-image-nerv, .first-image-nervtoo, .first-image-nervend {
   width: 100vw;
   transition: transform .8s;
 }
-.first-image-bag:hover, .first-image-book:hover, .first-image-box:hover, .first-image-paper:hover, .first-image-pillow:hover, .first-image-card:hover, .first-image-cloth:hover, .first-image-hat:hover, .first-image-plaid:hover {
+.first-image-bag:hover, .first-image-book:hover, .first-image-box:hover, .first-image-paper:hover, .first-image-pillow:hover, .first-image-card:hover, .first-image-cloth:hover, .first-image-hat:hover, .first-image-plaid:hover, .first-image-shoes:hover, .first-image-flyer:hover, .first-image-shelve:hover, .first-image-can:hover, .first-image-positive:hover, .first-image-red-space:hover, .first-image-blue-space:hover, .first-image-nerv:hover, .first-image-nervtoo:hover, .first-image-nervend:hover {
   transform: scale(1.1);
 }
-.first-image-bag-mobile, .bag-content-one-image-mobile, .bag-content-two-image-mobile, .first-image-book-mobile, .book-content-one-image-mobile, .book-content-two-image-mobile, .first-image-box-mobile, .box-content-one-image-mobile, .box-content-two-image-mobile, .first-image-paper-mobile, .paper-content-one-image-mobile, .paper-content-two-image-mobile, .first-image-pillow-mobile, .pillow-content-one-image-mobile, .pillow-content-two-image-mobile, .first-image-card-mobile, .card-content-one-image-mobile, .card-content-two-image-mobile, .first-image-cloth-mobile, .cloth-content-one-image-mobile, .cloth-content-two-image-mobile, .first-image-hat-mobile, .hat-content-one-image-mobile, .hat-content-two-image-mobile, .first-image-plaid-mobile, .plaid-content-one-image-mobile, .plaid-content-two-image-mobile {
+.first-image-bag-mobile, .bag-content-one-image-mobile, .bag-content-two-image-mobile, .first-image-book-mobile, .book-content-one-image-mobile, .book-content-two-image-mobile, .first-image-box-mobile, .box-content-one-image-mobile, .box-content-two-image-mobile, .first-image-paper-mobile, .paper-content-one-image-mobile, .paper-content-two-image-mobile, .first-image-pillow-mobile, .pillow-content-one-image-mobile, .pillow-content-two-image-mobile, .first-image-card-mobile, .card-content-one-image-mobile, .card-content-two-image-mobile, .first-image-cloth-mobile, .cloth-content-one-image-mobile, .cloth-content-two-image-mobile, .first-image-hat-mobile, .hat-content-one-image-mobile, .hat-content-two-image-mobile, .first-image-plaid-mobile, .plaid-content-one-image-mobile, .plaid-content-two-image-mobile, .first-image-shoes-mobile, .shoes-content-one-image-mobile, .shoes-content-two-image-mobile, .first-image-flyer-mobile, .flyer-content-one-image-mobile, .flyer-content-two-image-mobile, .first-image-shelve-mobile, .shelve-content-one-image-mobile, .shelve-content-two-image-mobile, .first-image-can-mobile, .can-content-one-image-mobile, .can-content-two-image-mobile, .first-image-positive-mobile, .positive-content-one-image-mobile, .positive-content-two-image-mobile, .first-image-red-space-mobile, .red-space-content-one-image-mobile, .red-space-content-two-image-mobile, .first-image-blue-space-mobile, .blue-space-content-one-image-mobile, .blue-space-content-two-image-mobile, .first-image-nerv-mobile, .nerv-content-one-image-mobile, .nerv-content-two-image-mobile, .first-image-nervtoo-mobile, .nervtoo-content-one-image-mobile, .nervtoo-content-two-image-mobile, .first-image-nervend-mobile, .nervend-content-one-image-mobile, .nervend-content-two-image-mobile {
   display: none;
 }
 /* STORE CONTAINER */
-.bag-tittle, .book-tittle, .box-tittle, .paper-tittle, .pillow-tittle, .card-tittle, .cloth-tittle, .hat-tittle, .plaid-tittle {
+.bag-tittle, .book-tittle, .box-tittle, .paper-tittle, .pillow-tittle, .card-tittle, .cloth-tittle, .hat-tittle, .plaid-tittle, .shoes-tittle, .flyer-tittle, .shelve-tittle, .can-tittle, .positive-tittle, .red-space-tittle, .blue-space-tittle, .nerv-tittle, .nervtoo-tittle, .nervend-tittle {
   width: 96.212vw;
   margin-bottom: 3vw;
 }
-.bag-tags, .book-tags, .box-tags, .paper-tags, .pillow-tags, .card-tags, .cloth-tags, .hat-tags, .plaid-tags {
+.bag-tags, .book-tags, .box-tags, .paper-tags, .pillow-tags, .card-tags, .cloth-tags, .hat-tags, .plaid-tags, .shoes-tags, .flyer-tags, .shelve-tags, .can-tags, .positive-tags, .red-space-tags, .blue-space-tags, .nerv-tags, .nervtoo-tags, .nervend-tags {
   display: flex;
   flex-direction: row;
   gap: 1.136vw;
   margin-bottom: 2.273vw;
 }
-.bag-tag-one, .bag-tag-two, .bag-tag-three, .book-tag-one, .book-tag-two, .book-tag-three, .box-tag-one, .box-tag-two, .box-tag-three, .paper-tag-one, .paper-tag-two, .paper-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .card-tag-one, .card-tag-two, .card-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .hat-tag-one, .hat-tag-two, .hat-tag-three, .plaid-tag-one, .plaid-tag-two, .plaid-tag-three {
+.bag-tag-one, .bag-tag-two, .bag-tag-three, .book-tag-one, .book-tag-two, .book-tag-three, .box-tag-one, .box-tag-two, .box-tag-three, .paper-tag-one, .paper-tag-two, .paper-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .card-tag-one, .card-tag-two, .card-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .hat-tag-one, .hat-tag-two, .hat-tag-three, .plaid-tag-one, .plaid-tag-two, .plaid-tag-three, .shoes-tag-one, .shoes-tag-two, .shoes-tag-three, .flyer-tag-one, .flyer-tag-two, .flyer-tag-three, .shelve-tag-one, .shelve-tag-two, .shelve-tag-three, .can-tag-one, .can-tag-two, .can-tag-three, .positive-tag-one, .positive-tag-two, .positive-tag-three, .red-space-tag-one, .red-space-tag-two, .red-space-tag-three, .blue-space-tag-one, .blue-space-tag-two, .blue-space-tag-three, .nerv-tag-one, .nerv-tag-two, .nerv-tag-three, .nervtoo-tag-one, .nervtoo-tag-two, .nervtoo-tag-three, .nervend-tag-one, .nervend-tag-two, .nervend-tag-three {
   padding: 0.758vw 0.833vw;
   background: #DB062D;
   border-radius: 500px;
 }
-.bag-subtittle, .book-subtittle, .box-subtittle, .paper-subtittle, .pillow-subtittle, .card-subtittle, .cloth-subtittle, .hat-subtittle, .plaid-subtittle {
+.bag-subtittle, .book-subtittle, .box-subtittle, .paper-subtittle, .pillow-subtittle, .card-subtittle, .cloth-subtittle, .hat-subtittle, .plaid-subtittle, .shoes-subtittle, .flyer-subtittle, .shelve-subtittle, .can-subtittle, .positive-subtittle, .red-space-subtittle, .blue-space-subtittle, .nerv-subtittle, .nervtoo-subtittle, .nervend-subtittle {
   width: 55.379vw;
   margin-bottom: 2.273vw;
 }
-.bag-content, .book-content, .box-content, .paper-content, .pillow-content, .card-content, .cloth-content, .hat-content, .plaid-content {
+.bag-content, .book-content, .box-content, .paper-content, .pillow-content, .card-content, .cloth-content, .hat-content, .plaid-content, .shoes-content, .flyer-content, .shelve-content, .can-content, .positive-content, .red-space-content, .blue-space-content, .nerv-content, .nervtoo-content, .nervend-content {
   width: 96.212vw;
   height: auto;
   display: flex;
   flex-direction: row;
   gap: 1.515vw;
 }
-.bag-content-one, .bag-content-two, .book-content-one, .book-content-two, .box-content-one, .box-content-two, .paper-content-one, .paper-content-two, .pillow-content-one, .pillow-content-two, .card-content-one, .card-content-two, .cloth-content-one, .cloth-content-two, .hat-content-one, .hat-content-two, .plaid-content-one, .plaid-content-two {
+.bag-content-one, .bag-content-two, .book-content-one, .book-content-two, .box-content-one, .box-content-two, .paper-content-one, .paper-content-two, .pillow-content-one, .pillow-content-two, .card-content-one, .card-content-two, .cloth-content-one, .cloth-content-two, .hat-content-one, .hat-content-two, .plaid-content-one, .plaid-content-two, .shoes-content-one, .shoes-content-two, .flyer-content-one, .flyer-content-two, .shelve-content-one, .shelve-content-two, .can-content-one, .can-content-two, .positive-content-one, .positive-content-two, .red-space-content-one, .red-space-content-two, .blue-space-content-one, .blue-space-content-two, .nerv-content-one, .nerv-content-two, .nervtoo-content-one, .nervtoo-content-two, .nervend-content-one, .nervend-content-two {
   display: flex;
   flex-direction: column;
   gap: 2.273vw;
   width: 55.455vw;
   height: 55vw;
 }
-.bag-content-one-image-container, .bag-content-two-image-container, .book-content-one-image-container, .book-content-two-image-container, .box-content-one-image-container, .box-content-two-image-container, .paper-content-one-image-container, .paper-content-two-image-container, .pillow-content-one-image-container, .pillow-content-two-image-container, .card-content-two-image-container, .card-content-one-image-container, .cloth-content-one-image-container, .cloth-content-two-image-container, .hat-content-one-image-container, .hat-content-two-image-container, .plaid-content-one-image-container, .plaid-content-two-image-container {
+.bag-content-one-image-container, .bag-content-two-image-container, .book-content-one-image-container, .book-content-two-image-container, .box-content-one-image-container, .box-content-two-image-container, .paper-content-one-image-container, .paper-content-two-image-container, .pillow-content-one-image-container, .pillow-content-two-image-container, .card-content-two-image-container, .card-content-one-image-container, .cloth-content-one-image-container, .cloth-content-two-image-container, .hat-content-one-image-container, .hat-content-two-image-container, .plaid-content-one-image-container, .plaid-content-two-image-container, .shoes-content-one-image-container, .shoes-content-two-image-container, .flyer-content-one-image-container, .flyer-content-two-image-container, .shelve-content-one-image-container, .shelve-content-two-image-container, .can-content-two-image-container, .can-content-one-image-container, .positive-content-one-image-container, .positive-content-two-image-container, .red-space-content-one-image-container, .red-space-content-two-image-container, .blue-space-content-two-image-container, .blue-space-content-one-image-container, .nerv-content-two-image-container, .nerv-content-one-image-container, .nervtoo-content-two-image-container, .nervtoo-content-one-image-container, .nervend-content-one-image-container, .nervend-content-two-image-container {
   width: 55.455vw;
   height: 38.182vw;
   overflow: hidden;
   border-radius: 1.136vw;
   background: #52B5F9;
 }
-.bag-content-one-image, .bag-content-two-image, .book-content-one-image, .book-content-two-image, .box-content-one-image, .box-content-two-image, .paper-content-one-image, .paper-content-two-image, .pillow-content-one-image, .pillow-content-two-image, .card-content-one-image, .card-content-two-image, .cloth-content-one-image, .cloth-content-two-image, .hat-content-one-image, .hat-content-two-image, .plaid-content-one-image, .plaid-content-two-image {
+.bag-content-one-image, .bag-content-two-image, .book-content-one-image, .book-content-two-image, .box-content-one-image, .box-content-two-image, .paper-content-one-image, .paper-content-two-image, .pillow-content-one-image, .pillow-content-two-image, .card-content-one-image, .card-content-two-image, .cloth-content-one-image, .cloth-content-two-image, .hat-content-one-image, .hat-content-two-image, .plaid-content-one-image, .plaid-content-two-image, .shoes-content-one-image, .shoes-content-two-image, .flyer-content-one-image, .flyer-content-two-image, .shelve-content-one-image, .shelve-content-two-image, .can-content-one-image, .can-content-two-image, .positive-content-two-image, .positive-content-one-image, .red-space-content-two-image, .red-space-content-one-image, .blue-space-content-one-image, .blue-space-content-two-image, .nerv-content-one-image, .nerv-content-two-image, .nervtoo-content-one-image, .nervtoo-content-two-image, .nervend-content-one-image, .nervend-content-two-image {
   width: 70vw;
   transition: transform .8s;
 }
-.bag-content-one-image:hover, .bag-content-two-image:hover, .book-content-two-image:hover, .book-content-one-image:hover, .box-content-one-image:hover, .box-content-two-image:hover, .paper-content-one-image:hover, .paper-content-two-image:hover, .pillow-content-one-image:hover, .pillow-content-two-image:hover, .card-content-one-image:hover, .card-content-two-image:hover, .cloth-content-one-image:hover, .cloth-content-two-image:hover, .hat-content-one-image:hover, .hat-content-two-image:hover, .plaid-content-one-image:hover, .plaid-content-two-image:hover {
+.bag-content-one-image:hover, .bag-content-two-image:hover, .book-content-two-image:hover, .book-content-one-image:hover, .box-content-one-image:hover, .box-content-two-image:hover, .paper-content-one-image:hover, .paper-content-two-image:hover, .pillow-content-one-image:hover, .pillow-content-two-image:hover, .card-content-one-image:hover, .card-content-two-image:hover, .cloth-content-one-image:hover, .cloth-content-two-image:hover, .hat-content-one-image:hover, .hat-content-two-image:hover, .plaid-content-one-image:hover, .plaid-content-two-image:hover, .shoes-content-one-image:hover, .shoes-content-two-image:hover, .flyer-content-one-image:hover, .flyer-content-two-image:hover, .shelve-content-two-image:hover, .shelve-content-one-image:hover, .can-content-one-image:hover, .can-content-two-image:hover, .positive-content-two-image:hover, .positive-content-one-image:hover, .red-space-content-two-image:hover, .red-space-content-one-image:hover, .blue-space-content-one-image:hover, .blue-space-content-two-image:hover, .nerv-content-one-image:hover, .nerv-content-two-image:hover, .nervtoo-content-one-image:hover, .nervtoo-content-two-image:hover, .nervend-content-one-image:hover, .nervend-content-two-image:hover {
   transform: scale(1.1);
 }
-.bag-topic-one, .book-topic-one, .box-topic-one, .paper-topic-one, .pillow-topic-one, .card-topic-one, .cloth-topic-one, .hat-topic-one, .plaid-topic-one {
+.bag-topic-one, .book-topic-one, .box-topic-one, .paper-topic-one, .pillow-topic-one, .card-topic-one, .cloth-topic-one, .hat-topic-one, .plaid-topic-one, .shoes-topic-one, .flyer-topic-one, .shelve-topic-one, .can-topic-one, .positive-topic-one, .red-space-topic-one, .blue-space-topic-one, .nerv-topic-one, .nervtoo-topic-one, .nervend-topic-one {
   width: 55.379vw;
 }
-.bag-content-two, .book-content-two, .box-content-two, .paper-content-two, .paper-content-two-image-container, .pillow-content-two, .card-content-two, .cloth-content-two, .hat-content-two, .plaid-content-two {
+.bag-content-two, .book-content-two, .box-content-two, .paper-content-two, .paper-content-two-image-container, .pillow-content-two, .card-content-two, .cloth-content-two, .hat-content-two, .plaid-content-two, .flyer-content-two, .shelve-content-two, .can-content-two, .positive-content-two, .red-space-content-two, .blue-space-content-two, .nerv-content-two, .nervtoo-content-two, .nervend-content-two {
   width: 39.242vw;
 }
-.bag-content-two-image-container, .book-content-two-image-container, .box-content-two-image-container, .paper-content-two-image-container, .pillow-content-two-image-container, .card-content-two-image-container, .cloth-content-two-image-container, .hat-content-two-image-container, .plaid-content-two-image-container {
+.bag-content-two-image-container, .book-content-two-image-container, .box-content-two-image-container, .paper-content-two-image-container, .pillow-content-two-image-container, .card-content-two-image-container, .cloth-content-two-image-container, .hat-content-two-image-container, .plaid-content-two-image-container, .shoes-content-two-image-container, .flyer-content-two-image-container, .shelve-content-two-image-container, .can-content-two-image-container, .positive-content-two-image-container, .red-space-content-two-image-container, .blue-space-content-two-image-container, .nerv-content-two-image-container, .nervtoo-content-two-image-container, .nervend-content-two-image-container {
   width: 39.242vw;
 }
-.bag-content-two-image, .book-content-two-image, .box-content-two-image, .paper-content-two-image, .pillow-content-two-image, .card-content-two-image, .cloth-content-two-image, .hat-content-two-image, .plaid-content-two-image {
+.bag-content-two-image, .book-content-two-image, .box-content-two-image, .paper-content-two-image, .pillow-content-two-image, .card-content-two-image, .cloth-content-two-image, .hat-content-two-image, .plaid-content-two-image, .shoes-content-two-image, .flyer-content-two-image, .shelve-content-two-image, .can-content-two-image, .positive-content-two-image, .red-space-content-two-image, .blue-space-content-two-image, .nerv-content-two-image, .nervtoo-content-two-image, .nervend-content-two-image {
   width: 42vw;
 }
-.bag-button, .book-button, .box-button, .paper-button, .pillow-button, .card-button, .cloth-button, .hat-button, .plaid-button {
+.bag-button, .book-button, .box-button, .paper-button, .pillow-button, .card-button, .cloth-button, .hat-button, .plaid-button, .shoes-button, .flyer-button, .shelve-button, .can-button, .positive-button, .red-space-button, .blue-space-button, .nerv-button, .nervtoo-button, .nervend-button {
   width: 8.712vw;
   height: auto;
   border-radius: 0.758vw;
@@ -97,7 +97,7 @@
   padding-right: 0.5vw;
   transition: 0.2s;
 }
-.bag-button:hover, .book-button:hover, .box-button:hover, .paper-button:hover, .pillow-button:hover, .card-button:hover, .cloth-button:hover, .hat-button:hover, .plaid-button:hover {
+.bag-button:hover, .book-button:hover, .box-button:hover, .paper-button:hover, .pillow-button:hover, .card-button:hover, .cloth-button:hover, .hat-button:hover, .plaid-button:hover, .shoes-button:hover, .flyer-button:hover, .shelve-button:hover, .can-button:hover, .positive-button:hover, .red-space-button:hover, .blue-space-button:hover, .nerv-button:hover, .nervtoo-button:hover, .nervend-button:hover {
   background: #FFBB0E;
 }
 .button-text {
@@ -108,7 +108,7 @@
   color: white;
 }
 /* BOOK */
-.book-tag-one, .book-tag-two, .book-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three {
+.book-tag-one, .book-tag-two, .book-tag-three, .pillow-tag-one, .pillow-tag-two, .pillow-tag-three, .cloth-tag-one, .cloth-tag-two, .cloth-tag-three, .shoes-tag-one, .shoes-tag-two, .shoes-tag-three, .shelve-tag-one, .shelve-tag-two, .shelve-tag-three, .blue-space-tag-one, .blue-space-tag-two, .blue-space-tag-three    {
   background: #FFBB0E;
 }
 .care-content-two-image-container {
@@ -123,17 +123,29 @@
   background: #52B5F9;
 }
 /* CARD */
-.card-tag-one, .card-tag-two, .card-tag-three {
+.card-tag-one, .card-tag-two, .card-tag-three, .positive-tag-one, .positive-tag-two, .positive-tag-three {
   background: #104FFF;
 }
 .card-content-one-image {
   width: 60vw;
 }
 /* HAT */
-.hat-tag-one, .hat-tag-two, .hat-tag-three  {
+.hat-tag-one, .hat-tag-two, .hat-tag-three, .flyer-tag-one, .flyer-tag-two, .flyer-tag-three  {
   background: #DB062D;
 }
 /* PLAID */
-.plaid-tag-one, .plaid-tag-two, .plaid-tag-three {
+.plaid-tag-one, .plaid-tag-two, .plaid-tag-three, .nerv-tag-one, .nerv-tag-two, .nerv-tag-three, .nervtoo-tag-one, .nervtoo-tag-two, .nervtoo-tag-three, .nervend-tag-one, .nervend-tag-two, .nervend-tag-three  {
   background: #6610F5;
+}
+/* SHOES */
+.shoes-content-one-image {
+  width: 61vw;
+}
+/* SHELVE */
+.shelve-content-one-image {
+  width: 60vw;
+}
+/* CAN */
+.can-content-one-image {
+  width: 60vw;
 }
