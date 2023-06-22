@@ -205,12 +205,12 @@
     width: 94.133vw;
     margin-bottom: 3vw;
   }
-  .ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker, .crazy-linker, .offer-linker, .relax-linker, .lab-linker, .open-space-linker, .manual-linker, .toys-linker, .theatre-linker, .medi-linker, .care-linker, .space-linker, .performance-linker {
+  .ad-posters-linker, .services-linker, .blog-linker, .posters-store-linker, .native-integration-linker, .contacts-linker, .crazy-linker, .offer-linker, .relax-linker, .lab-linker, .open-space-linker, .manual-linker, .toys-linker, .theatre-linker, .medi-linker, .care-linker, .space-linker, .performance-linker, .merch-linker, .post-linker {
     height: 11.733vw;
     gap: 2.667vw;
     margin-bottom: 2.667vw;
   }
-  .ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button, .crazy-linker-button, .offer-linker-button, .relax-linker-button, .lab-linker-button, .open-space-linker-button, .manual-linker-button, .toys-linker-button, .theatre-linker-button, .medi-linker-button, .care-linker-button, .space-linker-button, .performance-linker-button {
+  .ad-posters-linker-button, .services-linker-button, .blog-linker-button, .posters-store-linker-button, .native-integration-linker-button, .contacts-linker-button, .crazy-linker-button, .offer-linker-button, .relax-linker-button, .lab-linker-button, .open-space-linker-button, .manual-linker-button, .toys-linker-button, .theatre-linker-button, .medi-linker-button, .care-linker-button, .space-linker-button, .performance-linker-button, .merch-linker-button, .post-linker-button {
     padding: 2.667vw;
     border-radius: 1.333vw;
     padding-bottom: 4.3vw;
@@ -219,7 +219,7 @@
   .ad-posters-linker-button-text, .services-linker-button-text {
     font-size: 8vw;
   }
-  .ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go, .crazy-linker-go, .offer-linker-go, .relax-linker-go, .lab-linker-go, .open-space-linker-go, .manual-linker-go, .toys-linker-go, .theatre-linker-go, .care-linker-go, .space-linker-go, .performance-linker-go  {
+  .ad-posters-linker-go, .service-linker-go, .blog-linker-go, .posters-store-linker-go, .native-integration-linker-go, .contacts-linker-go, .crazy-linker-go, .offer-linker-go, .relax-linker-go, .lab-linker-go, .open-space-linker-go, .manual-linker-go, .toys-linker-go, .theatre-linker-go, .care-linker-go, .space-linker-go, .performance-linker-go, .merch-linker-go, .post-linker-go  {
     width: 11.733vw;
     height: 11.733vw;
   }

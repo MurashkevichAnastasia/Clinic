@@ -1,0 +1,68 @@
+@media screen and (max-width:600px)  {
+  h2 {
+    font-family: 'CraftworkGrotesk-Medium';
+    /* font-size: 25px; */
+    font-size: 6.667vw;
+    line-height: auto;
+  }
+  h3 {
+    font-family: 'CraftworkGrotesk-Medium';
+    /* font-size: 18px; */
+    font-size: 4.800vw;
+    line-height: 3.200vw;
+  }
+  .merch-container, .post-container {
+    width: 94.133vw;
+    height: auto;
+    border-radius: 4vw;
+  }
+  .store-about {
+    width: 94.133vw; 
+    margin: 0 auto;
+    margin-bottom: 3vw;
+  }
+  .merch-content, .post-content {
+    width: 94.133vw;
+    flex-direction: column;
+    gap: 10.667vw;
+    height: auto;
+    border-radius: 4vw;
+    margin-bottom: 6vw;
+  }
+  .merch-one, .merch-two, .merch-three, .merch-four, .post-one, .post-two {
+    flex-direction: column;
+    gap: 10.667vw;
+    width: 94.133vw;
+    height: auto;
+  }
+  .card-one, .card-two, .card-three, .card-four, .card-five, .card-six, .card-seven, .card-eight, .card-nine, .card-ten, .card-elvn, .p-card-one, .p-card-two, .p-card-three, .p-card-four, .p-card-five, .p-card-six, .p-card-seven, .p-card-eight  {
+    width: 94.133vw;
+    /* gap: 4.800vw; */
+    height: auto;
+  }
+  .card-one-image-container, .card-two-image-container, .card-three-image-container, .card-four-image-container, .card-five-image-container, .card-six-image-container, .card-seven-image-container, .card-eight-image-container, .card-nine-image-container, .card-ten-image-container, .card-elvn-image-container, .p-card-one-image-conteiner, .p-card-two-image-conteiner, .p-card-three-image-conteiner, .p-card-four-image-conteiner, .p-card-five-image-conteiner, .p-card-six-image-conteiner, .p-card-seven-image-conteiner, .p-card-eight-image-conteiner {
+    width: 94.133vw;
+    height: 94.667vw;
+    border-radius: 4vw;
+  }
+  .p-card-one-image-conteiner, .p-card-two-image-conteiner, .p-card-three-image-conteiner, .p-card-four-image-conteiner, .p-card-five-image-conteiner, .p-card-six-image-conteiner, .p-card-seven-image-conteiner, .p-card-eight-image-conteiner {
+    height: auto;
+  }
+  .card-one-image, .card-two-image, .card-three-image, .card-four-image, .card-five-image, .card-six-image, .card-seven-image, .card-eight-image, .card-nine-image, .card-ten-image, .card-elvn-image, .p-card-one-image, .p-card-two-image, .p-card-three-image, .p-card-four-image, .p-card-five-image , .p-card-six-image, .p-card-seven-image, .p-card-eight-image {
+    width: 100vw;
+  }
+  .card-one-hover, .card-two-hover, .card-three-hover, .card-four-hover, .card-five-hover, .card-six-hover, .card-seven-hover, .card-eight-hover, .card-nine-hover, .card-ten-hover, .card-elvn-hover, .p-card-one-hover, .p-card-two-hover, .p-card-three-hover, .p-card-four-hover, .p-card-five-hover, .p-card-six-hover, .p-card-seven-hover, .p-card-eight-hover, .p-card-one-hover, .p-card-two-hover, .p-card-three-hover, .p-card-four-hover, .p-card-five-hover, .p-card-six-hover, .p-card-seven-hover, .p-card-eight-hover {
+    display: none;
+  }
+.card-one-text, .card-two-text, .card-three-text, .card-four-text, .card-five-text, .card-six-text, .card-seven-text, .card-eight-text, .card-nine-text, .card-ten-text, .card-elvn-text, .p-card-one-text, .p-card-two-text, .p-card-three-text, .p-card-four-text, .p-card-five-text, .p-card-six-text, .p-card-seven-text, .p-card-eight-text  {
+  display: flex;
+  flex-direction: column;
+  gap: 1.515vw;
+  width: 94.133vw;
+}
+
+
+
+ 
+  /* DO NOT TOUCH */
+}
