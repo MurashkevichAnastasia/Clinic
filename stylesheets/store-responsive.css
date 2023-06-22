@@ -54,12 +54,79 @@
   .card-one-hover, .card-two-hover, .card-three-hover, .card-four-hover, .card-five-hover, .card-six-hover, .card-seven-hover, .card-eight-hover, .card-nine-hover, .card-ten-hover, .card-elvn-hover, .p-card-one-hover, .p-card-two-hover, .p-card-three-hover, .p-card-four-hover, .p-card-five-hover, .p-card-six-hover, .p-card-seven-hover, .p-card-eight-hover, .p-card-one-hover, .p-card-two-hover, .p-card-three-hover, .p-card-four-hover, .p-card-five-hover, .p-card-six-hover, .p-card-seven-hover, .p-card-eight-hover {
     display: none;
   }
-.card-one-text, .card-two-text, .card-three-text, .card-four-text, .card-five-text, .card-six-text, .card-seven-text, .card-eight-text, .card-nine-text, .card-ten-text, .card-elvn-text, .p-card-one-text, .p-card-two-text, .p-card-three-text, .p-card-four-text, .p-card-five-text, .p-card-six-text, .p-card-seven-text, .p-card-eight-text  {
-  display: flex;
-  flex-direction: column;
-  gap: 1.515vw;
-  width: 94.133vw;
-}
+  .card-one-text, .card-two-text, .card-three-text, .card-four-text, .card-five-text, .card-six-text, .card-seven-text, .card-eight-text, .card-nine-text, .card-ten-text, .card-elvn-text, .p-card-one-text, .p-card-two-text, .p-card-three-text, .p-card-four-text, .p-card-five-text, .p-card-six-text, .p-card-seven-text, .p-card-eight-text  {
+    display: flex;
+    flex-direction: column;
+    gap: 1.515vw;
+    width: 94.133vw;
+  }
+
+
+
+  /* скопирована структура  */
+  .web-container {
+    width: 94.133vw;
+    background: black;
+    flex-direction: column;
+    height: 139vw;
+  }
+  .web-content {
+    flex-direction: column;
+    height: auto;
+    background: black;
+  }
+  .web-about {
+    width: 94.133vw;
+    margin: 0 auto;
+    height: 38.667vw;
+    border-radius: 4vw;
+    background: white;
+    padding-top: 5.733vw;
+    /* padding-bottom: 5vw; */
+    gap: 7.467vw;
+    margin: 0;
+  }
+  .web-about-tittle, .web-about-subtittle {
+    width: 85.067vw;
+    margin-left: 3.467vw;
+  } 
+  .web-link-newspaper, .web-link-new-year, .web-link-supernewspaper {
+    width: 94.133vw;
+    height: 23vw;
+    border-radius: 4vw;
+    background: white;
+    gap: 52.5vw;
+  }
+  .web-link-new-year {
+    gap: 39.5vw;
+  }
+  .web-link-supernewspaper {
+    gap: 42.5vw;
+  }
+  .wweb-link-newspaper, .web-link-new-year, .web-link-supernewspaper {
+    margin-top: 4vw;
+  }
+  .newspaper-tittle, .new-year-tittle, .supernewspaper-tittle {
+    height: auto;
+    margin-left: 3.467vw;
+    margin-top: 6.8vw;
+  }
+  .contact-arrow {
+    height: 13.067vw;
+    margin-top: 3.8vw;
+  }
+  .newspaper-border-line, .new-year-border-line, .supernewspaper-border-line {
+    width: 86.933vw;
+    margin: 0 auto;
+    margin-top: -3vw;
+    margin-left: 3.467vw;
+  }
+  .contacts-info {
+    font-size: 5.800vw;
+    line-height: 7vw;
+  }
+
+
 
 
 

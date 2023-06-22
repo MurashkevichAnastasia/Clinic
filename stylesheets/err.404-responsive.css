@@ -1,0 +1,26 @@
+@media screen and (max-width:600px) {
+  .error-container {
+    width: 94.133vw;
+    height: 207.467vw;
+    justify-content: center;
+  }
+  .error-image {
+    display: none;
+  }
+  .error-image-mobile {
+    display: block;
+    margin-top: 23vw;
+    width: 77.067vw;
+  }
+  .error-tittle {
+    text-align: center;
+    margin-top: 7vw;
+  }
+  .error-button {
+    margin-top: 6vw;
+  }
+
+
+
+  /* DO NOT TOUCH */
+}

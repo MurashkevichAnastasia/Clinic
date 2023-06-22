@@ -13,7 +13,6 @@ hamburgerMain.addEventListener("click", function(){
   hamburgerMain.style.color="red";
 })
 
-// BLOG. BUTTON ON CLICK
 
 
 
@@ -102,12 +101,3 @@ function hoverOnNewspaper() {
 function hoverOffNewspaper() {
   document.getElementById("web-link-newspaper").classList.remove("active");
 }
-
-
-// MEDIA. HOVER ON TWITTER ARROW
-// function hoverOnNews() {
-//   document.getElementById("black-arrow-news").classList.add("active");
-// }
-// function hoverOffNews() {
-//   document.getElementById("black-arrow-news").classList.remove("active");
-// }

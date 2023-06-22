@@ -1,0 +1,34 @@
+.error-container {
+  width: 96.212vw;
+  height: 45vw;
+  background: white;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 1.136vw;
+  flex-direction: column;
+  align-items: center;
+}
+.error-image {
+  width: 37.955vw;
+  height: 14.091vw;
+  margin-top: 7vw;
+}
+.error-image-mobile {
+  display: none;
+}
+.error-tittle {
+  margin-top: 3.561vw;
+  color: black;
+}
+.error-button {
+  background: black;
+  display: flex;
+  padding: 1.591vw 1.439vw;
+  align-items: center;
+  border-radius: 1.136vw;
+  margin-top: 3.636vw;
+  transition: 0.3s;
+}
+.error-button:hover {
+  background: #DB062D;
+}
