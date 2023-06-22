@@ -1,0 +1,64 @@
+@media screen and (max-width:600px) {
+  .main-contacts-container {
+    width: 94.133vw;
+    background: black;
+    flex-direction: column;
+    height: 157vw;
+  }
+  .main-contacts-about {
+    width: 94.133vw;
+    margin: 0 auto;
+    height: 46.667vw;
+    border-radius: 4vw;
+    background: white;
+    padding-top: 5.733vw;
+    /* padding-bottom: 5vw; */
+    gap: 7.467vw;
+  }
+  .main-contacts-tittle, .main-contacts-subtittle {
+    width: 85.067vw;
+    margin-left: 3.467vw;
+  } 
+  .web-link-instagram, .web-link-facebook, .web-link-discord, .web-link-tictok {
+    width: 94.133vw;
+    height: 23vw;
+    border-radius: 4vw;
+    background: white;
+    gap: 38vw;
+  }
+  .web-link-facebook {
+    gap: 43.5vw;
+  }
+  .web-link-discord {
+    gap: 42vw;
+  }
+  .web-link-tictok {
+    gap: 50vw;
+  }
+  .web-link-facebook, .web-link-discord, .web-link-tictok {
+    margin-top: 4vw;
+  }
+  .instagram-tittle, .facebook-tittle, .discord-tittle, .tictok-tittle {
+    height: auto;
+    margin-left: 3.467vw;
+    margin-top: 6.8vw;
+  }
+  .contact-arrow {
+    height: 13.067vw;
+    margin-top: 3.8vw;
+  }
+  .instagram-border-line, .facebook-border-line, .discord-border-line, .tictok-border-line {
+    width: 86.933vw;
+    margin: 0 auto;
+    margin-top: -3vw;
+    margin-left: 3.467vw;
+  }
+
+
+
+
+
+
+
+  /* DO NOT TOUCH */
+}

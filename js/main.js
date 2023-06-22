@@ -95,4 +95,19 @@ function hoverOffOffer() {
   document.getElementById("black-arrow-offer").classList.remove("active");
 }
 
+// STORE. HOVER ON NEWSPAPER
+function hoverOnNewspaper() {
+  document.getElementById("web-link-newspaper").classList.add("active");
+}
+function hoverOffNewspaper() {
+  document.getElementById("web-link-newspaper").classList.remove("active");
+}
 
+
+// MEDIA. HOVER ON TWITTER ARROW
+// function hoverOnNews() {
+//   document.getElementById("black-arrow-news").classList.add("active");
+// }
+// function hoverOffNews() {
+//   document.getElementById("black-arrow-news").classList.remove("active");
+// }

@@ -117,7 +117,7 @@
 .web-content {
   width: 96.212vw;
   margin: 0 auto;
-  height: 23.636vw;
+  height: 25.5vw;
   display: flex;
   flex-direction: row;
   background: #F2F2F2;
@@ -133,8 +133,10 @@
   margin-top: 2.273vw;
   margin-right: 33.636vw;
 }
-.web-about-tittle, .web-about-subtittle {
+.web-about-tittle, .web-about-subtittle, .newspaper-tittle, .new-year-tittle, .supernewspaper-tittle {
   color: black;
+  width: auto;
+  transition: 0.3s;
 }
 .web-links {
   display: flex;
@@ -145,30 +147,40 @@
   height: 17.576vw;
   margin-top: 2.273vw;
 }
-.web-link-newspaper {
-  width: 32.348vw;
+.web-link-newspaper, .web-link-new-year, .web-link-supernewspaper {
+  display: flex;
+  gap: 16.288vw;
+  transition: 0.9s;
+}
+.web-link-new-year {
+  gap: 8.864vw;
+}
+.web-link-supernewspaper {
+  gap: 10.606vw;
+}
+.contact-arrow {
   height: 3.712vw;
   display: flex;
   flex-direction: row;
-  gap: 16.288vw;
+  transition: 0.9s;
+  margin-top: 0.5vw;
 }
-.newspaper-go {
+.web-link-newspaper:hover, .web-link-new-year:hover, .web-link-supernewspaper:hover {
+  gap: 2vw;
+  transition: 0.9s;
+}
+.newspaper-tittle {
+  width: auto;
+  transition: 0.3s;
+}
+.newspaper-tittle:hover, .new-year-tittle:hover, .supernewspaper-tittle:hover {
+  color: #52B5F9;
+}
+.newspaper-border-line, .new-year-border-line, .supernewspaper-border-line {
+  width: 32.348vw;
+  height: 0px;
   border: 0.076vw solid #959595;
-  border-width: 0.076vw;
-  border-radius: 500px;
-  height: 3.712vw;
-  width: 3.712vw;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  box-sizing: border-box;
-  transition: 0.8s;
-}
-.web-arrow {
-  position: absolute;
-  margin-top: 0.9vw;
-  width: 1.742vw;
-  height: 1.667vw;
+  margin-top: 1vw;
 }
 
 

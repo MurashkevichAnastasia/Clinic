@@ -1,0 +1,76 @@
+.main-contacts-container {
+  width: 96.212vw;
+  margin: 0 auto;
+  margin-bottom: 1.515vw;
+  height: 33vw;
+  display: flex;
+  flex-direction: row;
+  background: #F2F2F2;
+  border-radius: 1.136vw;
+}
+.main-contacts-about-container {
+  display: block;
+  width: 32vw;
+  height: 13.636vw;
+}
+.main-contacts-about {
+  width: 32vw;
+  height: 13.636vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.273vw;
+  margin-left: 2.273vw;
+  margin-top: 2.273vw;
+  margin-right: 33.636vw;
+}
+.main-contacts-tittle, .main-contacts-subtittle {
+  color: black;
+}
+.main-contacts-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.515vw;
+  width: 32.348vw;
+  height: 23.939vw;
+  margin-top: 2.273vw;
+  margin-right: 2.273vw;
+}
+.web-link-instagram, .web-link-facebook, .web-link-discord, .web-link-tictok {
+  display: flex;
+  gap: 8.636vw;
+  transition: 0.9s;
+}
+.instagram-tittle, .facebook-tittle, .discord-tittle, .tictok-tittle {
+  color: black;
+  transition: 0.3s;
+}
+.web-link-facebook {
+  gap: 11.818vw;
+}
+.web-link-discord {
+  gap: 10.833vw
+}
+.web-link-tictok {
+  gap: 15.076vw;
+}
+.contact-arrow {
+  height: 3.712vw;
+  display: flex;
+  flex-direction: row;
+  transition: 0.9s;
+  margin-top: 0.5vw;
+}
+.web-link-instagram:hover, .web-link-facebook:hover, .web-link-discord:hover, .web-link-tictok:hover {
+  gap: 2vw;
+  transition: 0.9s;
+}
+.instagram-tittle:hover, .facebook-tittle:hover, .discord-tittle:hover, .tictok-tittle:hover {
+  color: #52B5F9;
+}
+.instagram-border-line, .facebook-border-line, .discord-border-line, .tictok-border-line {
+  width: 32.348vw;
+  height: 0px;
+  border: 0.076vw solid #959595;
+  margin-top: 1vw;
+}
