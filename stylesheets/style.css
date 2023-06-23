@@ -41,6 +41,9 @@
   url(../fonts/Gilroy-Regular.eot) format("eot");
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
   min-height: 100%;
@@ -78,7 +81,6 @@ h3, .placeholder, .contacts-get-button  {
   text-decoration: none;
   line-height: 2.273vw;
 }
-
 h4, a {
   height: auto;
   /* font-family: "Gilroy Medium"; */
@@ -90,6 +92,7 @@ h4, a {
   color: #FFFFFF;
   text-decoration: none;
   transition: .5s;
+  line-height: 1.8vw;
 }
 a:hover {
   color: #52B5F9;

@@ -38,12 +38,15 @@
 }
 .web-link-instagram, .web-link-facebook, .web-link-discord, .web-link-tictok {
   display: flex;
-  gap: 8.636vw;
+  /* gap: 8.636vw; */
   transition: 0.9s;
 }
 .instagram-tittle, .facebook-tittle, .discord-tittle, .tictok-tittle {
   color: black;
   transition: 0.3s;
+}
+.web-link-instagram {
+  gap: 8.636vw;
 }
 .web-link-facebook {
   gap: 11.818vw;

@@ -7,12 +7,6 @@ headerHamburgerMenuBtn.addEventListener("click", function(){
   headerHamburgerMenu.classList.toggle("active");
 })
 
-//change color on click
-const hamburgerMain = document.getElementById("hamburgerMain");
-hamburgerMain.addEventListener("click", function(){
-  hamburgerMain.style.color="red";
-})
-
 
 
 

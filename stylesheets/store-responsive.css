@@ -1,15 +1,15 @@
 @media screen and (max-width:600px)  {
   h2 {
-    font-family: 'CraftworkGrotesk-Medium';
+    /* font-family: 'CraftworkGrotesk-Medium'; */
     /* font-size: 25px; */
-    font-size: 6.667vw;
-    line-height: auto;
+    /* font-size: 6.667vw;
+    line-height: auto; */
   }
   h3 {
-    font-family: 'CraftworkGrotesk-Medium';
+    /* font-family: 'CraftworkGrotesk-Medium'; */
     /* font-size: 18px; */
-    font-size: 4.800vw;
-    line-height: 3.200vw;
+    /* font-size: 4.800vw;
+    line-height: 3.200vw; */
   }
   .merch-container, .post-container {
     width: 94.133vw;
@@ -95,13 +95,15 @@
     height: 23vw;
     border-radius: 4vw;
     background: white;
-    gap: 52.5vw;
+  }
+  .web-link-newspaper {
+    gap: 47.5vw;
   }
   .web-link-new-year {
-    gap: 39.5vw;
+    gap: 31.5vw;
   }
   .web-link-supernewspaper {
-    gap: 42.5vw;
+    gap: 34.5vw;
   }
   .wweb-link-newspaper, .web-link-new-year, .web-link-supernewspaper {
     margin-top: 4vw;

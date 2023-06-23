@@ -24,16 +24,18 @@
     height: 23vw;
     border-radius: 4vw;
     background: white;
-    gap: 38vw;
+  }
+  .web-link-instagram {
+    gap: 32vw;
   }
   .web-link-facebook {
-    gap: 43.5vw;
-  }
+    gap: 39vw;
+  }  
   .web-link-discord {
-    gap: 42vw;
+    gap: 37vw;
   }
   .web-link-tictok {
-    gap: 50vw;
+    gap: 46vw;
   }
   .web-link-facebook, .web-link-discord, .web-link-tictok {
     margin-top: 4vw;

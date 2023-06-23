@@ -1,43 +1,11 @@
 @media screen and (max-width:600px) {
-  h1 {
-    font-family: 'CraftworkGrotesk-Medium';
-    font-style: normal;
-    font-weight: 500;
-    /* font-size: 25px; */
-    font-size: 6.667vw;
-    color: #FFFFFF;
-    text-decoration: none;
-    flex-grow: 0;
-    line-height: 8vw;
-  }
-  h3, .placeholder, .contacts-get-button  {
-    font-family: 'CraftworkGrotesk-Medium';
-    font-weight: 500;
-    /* font-size: 20px; */
-    font-size: 5.333vw;
-    color: #FFFFFF;
-    text-decoration: none;
-    line-height: 6.400vw;
-  }
-  h4, a {
-    height: auto;
-    /* font-family: "Gilroy Medium"; */
-    font-family: "Gilroy-Regular";
-    font-style: normal;
-    font-weight: 400;
-    /* font-size: 18px; */
-    font-size: 4.800vw;
-    color: #FFFFFF;
-    text-decoration: none;
-    line-height: 5.600vw;
-    transition: .5s;
-  }
   /* MODERN PRACTICES */
   .modern {
     width: 94.133vw;
   }
   .modern-practice {
     width: 94.133vw;
+    height: auto;
   }
   .modern-group {
     flex-direction: column;
@@ -114,13 +82,13 @@
     padding-bottom: 1.5vw;
   } 
   .crazy-tag-two {
-    left: 50vw;
+    left: 57vw;
   }
   /* WHAT NEED TO KNOW */
   .what-container {
     flex-direction: column;
     width: 94.133vw;
-    height: 193.667vw;
+    height: 224.667vw;
   }
   .what-left {
     width: 94.133vw;
