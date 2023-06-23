@@ -439,7 +439,8 @@
     margin-left: 3vw;
   }
   .contacts-menu-two {
-    width: 33.867vw;
+    /* width: 33.867vw; */
+    width: 75vw;
     height: 30.933vw;
     margin-top: 10.667vw;
     margin-left: 3vw;
